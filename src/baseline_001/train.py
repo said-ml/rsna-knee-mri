@@ -87,6 +87,18 @@ def main():
             f"found {len(df)}"
         )
 
+    # BASELINE-001: use only studies with all 12
+    # structured labels available.
+    df = df.dropna(subset=TARGETS).copy()
+
+    print("Complete-label studies:", len(df))
+
+    if len(df) != 58:
+        raise RuntimeError(
+            f"BASELINE-001 expected 58 complete-label studies, "
+            f"found {len(df)}"
+        )
+
     missing_targets = [
         c for c in TARGETS
         if c not in df.columns
