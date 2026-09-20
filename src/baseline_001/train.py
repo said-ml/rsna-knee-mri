@@ -58,18 +58,12 @@ def main():
 
     train_df = pd.read_csv(TRAIN_CSV)
 
-    manifest = pd.read_csv(ZARR_MANIFEST)
-
-    manifest = manifest[
-        manifest["status"].astype(str).str.upper()
-        == "SUCCESS"
-    ].copy()
+    manifest = pd.read_csv(ZARR_MANIFEST).copy()
 
     manifest = manifest.drop_duplicates(
         subset=["StudyInstanceUID"],
         keep="last",
     )
-
     df = train_df.merge(
         manifest[
             [
@@ -80,6 +74,18 @@ def main():
         on="StudyInstanceUID",
         how="inner",
     )
+
+    # BASELINE-001: use only studies with all 12
+    # structured labels available.
+    df = df.dropna(subset=TARGETS).copy()
+
+    print("Complete-label studies:", len(df))
+
+    if len(df) != 58:
+        raise RuntimeError(
+            f"BASELINE-001 expected 58 complete-label studies, "
+            f"found {len(df)}"
+        )
 
     missing_targets = [
         c for c in TARGETS
@@ -219,8 +225,9 @@ def main():
     # --------------------------------------------------------
     # Training
     # --------------------------------------------------------
+    from tqdm import trange
 
-    for epoch in range(1, EPOCHS + 1):
+    for epoch in trange(1, EPOCHS + 1):
 
         model.train()
 

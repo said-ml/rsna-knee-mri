@@ -10,7 +10,7 @@ TRAIN_CSV = DATA_ROOT / "raw" / "train.csv"
 ZARR_MANIFEST = (
     DATA_ROOT
     / "reports"
-    / "zarr_conversion_manifest_v3.csv"
+    / "baseline_001_series_selection.csv"
 )
 
 OUTPUT_DIR = PROJECT_ROOT / "outputs" / "baseline_001"
