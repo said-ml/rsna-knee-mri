@@ -277,25 +277,20 @@ def extract_target(sentence: str, target: str):
     s = sentence
 
     patterns = {
-
         "ACL": [
             r"\banterior cruciate ligament\b",
             r"\bACL\b",
         ],
-
         "MCL": [
             r"\bmedial collateral ligament\b",
             r"\bMCL\b",
         ],
-
         "Medial Meniscus": [
             r"\bmedial meniscus\b",
         ],
-
         "Lateral Meniscus": [
             r"\blateral meniscus\b",
         ],
-
         "Effusion": [
             r"\beffusion\b",
             r"\bjoint effusion\b",
@@ -304,7 +299,6 @@ def extract_target(sentence: str, target: str):
             r"\bépanchement\b",
             r"\bgelenkerguss\b",
         ],
-
         "Synovitis": [
             r"\bsynovitis\b",
             r"\bsynovial hypertrophy\b",
@@ -313,19 +307,16 @@ def extract_target(sentence: str, target: str):
             r"\bthickening of the synovium\b",
             r"\bsinovitis\b",
         ],
-
         "Baker's": [
             r"\bbaker'?s cyst\b",
             r"\bpopliteal cyst\b",
             r"\bquiste popl[íi]teo\b",
         ],
-
         "Contusion": [
             r"\bbone contusion\b",
             r"\bbone bruise\b",
             r"\bcontusion\b",
         ],
-
         "Fracture": [
             r"\bfracture\b",
             r"\bfractures\b",
@@ -335,71 +326,131 @@ def extract_target(sentence: str, target: str):
         ],
     }
 
-    if target in patterns:
-        return find_state(s, patterns[target])
+    if target not in patterns:
+        return None, None
 
-    return None, None
+    # ------------------------------------------------------------
+    # IMPORTANT:
+    # Uncertainty has priority over both positive and negative
+    # evidence inside this sentence.
+    # ------------------------------------------------------------
+    if has_uncertainty(s):
+        for pattern in patterns[target]:
+            match = re.search(pattern, s, flags=re.IGNORECASE)
+            if match:
+                return "uncertain", match.group(0)
 
+    # ------------------------------------------------------------
+    # Explicit target-specific NEGATIVE evidence
+    # ------------------------------------------------------------
+    negative_patterns = {
+        "Effusion": [
+            r"\bno\s+(?:joint\s+|knee\s+)?effusion\b",
+            r"\bno\s+significant\s+(?:joint\s+|knee\s+)?effusion\b",
+            r"\bno\s+evidence\s+of\s+(?:joint\s+|knee\s+)?effusion\b",
+        ],
+
+        "Baker's": [
+            r"\bno\s+baker'?s\s+cyst\b",
+            r"\bno\s+popliteal\s+cyst\b",
+        ],
+
+        "Contusion": [
+    r"\bno\s+(?:bone\s+)?bruise\b",
+    r"\bno\s+bone\s+contusion\b",
+
+    # Coordinated negation:
+    # "No fracture or bone bruise."
+    # "There is no fracture or bone contusion."
+    r"\bno\b[^.]*\b(?:bone\s+)?bruise\b",
+    r"\bno\b[^.]*\bbone\s+contusion\b",
+      ],
+        "Fracture": [
+            r"\bno\s+fracture\b",
+            r"\bno\s+acute\s+fracture\b",
+            r"\bno\s+evidence\s+of\s+fracture\b",
+        ],
+    }
+
+    for pattern in negative_patterns.get(target, []):
+        match = re.search(pattern, s, flags=re.IGNORECASE)
+        if match:
+            return "negative", match.group(0)
+
+    # ------------------------------------------------------------
+    # Existing generic state machinery
+    # ------------------------------------------------------------
+    return find_state(s, patterns[target])
 
 # ---------------------------------------------------------------------
 # Meniscus interpretation
 # ---------------------------------------------------------------------
 
-def extract_meniscus(sentence: str, target: str):
-    if target == "Medial Meniscus":
-        name = r"medial meniscus"
+def extract_meniscus(sentence: str, name: str):
+    s = sentence
 
-    elif target == "Lateral Meniscus":
-        name = r"lateral meniscus"
-
-    else:
-        return None, None
-
-    # Explicit negative statements.
+    # ------------------------------------------------------------
+    # 1. Explicit NEGATIVE evidence
+    # ------------------------------------------------------------
     negative_patterns = [
+        # Target before negation
         rf"\b{name}\b[^.]*\bno tear\b",
         rf"\b{name}\b[^.]*\bno obvious tear\b",
         rf"\b{name}\b[^.]*\bnot torn\b",
-        rf"\b{name}\b[^.]*\bwithout (?:a )?tear\b",
-        rf"\b{name}\b[^.]*\bno evidence of tear\b",
+        rf"\b{name}\b[^.]*\bwithout\b[^.]*\btear\b",
+        rf"\b{name}\b[^.]*\bno evidence of\b[^.]*\btear\b",
+
+        # Negation before target
+        rf"\bno evidence of\b[^.]*\b{name}\b",
     ]
 
     for pattern in negative_patterns:
-        match = re.search(pattern, sentence, flags=re.IGNORECASE)
-
+        match = re.search(pattern, s, flags=re.IGNORECASE)
         if match:
             return "negative", match.group(0)
 
-    # Uncertain tear.
+    # ------------------------------------------------------------
+    # 2. Explicit UNCERTAIN evidence
+    #    Uncertainty MUST be resolved before positive evidence.
+    # ------------------------------------------------------------
     uncertain_patterns = [
+        # Target before uncertainty
         rf"\b{name}\b[^.]*\bsuspicious\b[^.]*\btear\b",
         rf"\b{name}\b[^.]*\bpossible\b[^.]*\btear\b",
         rf"\b{name}\b[^.]*\bquestionable\b[^.]*\btear\b",
         rf"\b{name}\b[^.]*\br/o\b[^.]*\btear\b",
         rf"\b{name}\b[^.]*\bcannot exclude\b[^.]*\btear\b",
+        rf"\b{name}\b[^.]*\blikely\b[^.]*\btear\b",
+        rf"\b{name}\b[^.]*\bprobable\b[^.]*\btear\b",
+
+        # Uncertainty before target
+        rf"\br/o\b[^.]*\b{name}\b",
+        rf"\bpossible\b[^.]*\b{name}\b",
+        rf"\bsuspicious\b[^.]*\b{name}\b",
+        rf"\bcannot exclude\b[^.]*\b{name}\b",
+        rf"\blikely\b[^.]*\b{name}\b",
+        rf"\bprobable\b[^.]*\b{name}\b",
     ]
 
     for pattern in uncertain_patterns:
-        match = re.search(pattern, sentence, flags=re.IGNORECASE)
-
+        match = re.search(pattern, s, flags=re.IGNORECASE)
         if match:
             return "uncertain", match.group(0)
 
-    # Explicit tear.
+    # ------------------------------------------------------------
+    # 3. Explicit POSITIVE evidence
+    # ------------------------------------------------------------
     positive_patterns = [
         rf"\b{name}\b[^.]*\btear\b",
         rf"\btear\b[^.]*\b{name}\b",
     ]
 
     for pattern in positive_patterns:
-        match = re.search(pattern, sentence, flags=re.IGNORECASE)
-
+        match = re.search(pattern, s, flags=re.IGNORECASE)
         if match:
             return "positive", match.group(0)
 
     return None, None
-
-
 # ---------------------------------------------------------------------
 # Ligament interpretation
 # ---------------------------------------------------------------------
