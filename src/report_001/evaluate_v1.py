@@ -16,7 +16,7 @@ PRED_PATH = (
     PROJECT_ROOT
     / "data"
     / "reports"
-    / "report_001_v1_predictions.csv"
+    / "report_001_v2_predictions.csv"
 )
 
 TARGETS = [
@@ -105,7 +105,7 @@ def main():
     summary_df = pd.DataFrame(summary)
 
     print("\n" + "=" * 100)
-    print("REPORT-001 v1 — GOLD AGREEMENT")
+    print("REPORT-001 v2 — GOLD AGREEMENT")
     print("=" * 100)
 
     print(
@@ -192,7 +192,7 @@ def main():
         PROJECT_ROOT
         / "data"
         / "reports"
-        / "report_001_v1_audit.csv"
+        / "report_001_v2_audit.csv"
     )
 
     disagreements.to_csv(

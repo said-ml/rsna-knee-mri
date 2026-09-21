@@ -8,7 +8,7 @@ import pandas as pd
 
 PROJECT_ROOT = Path("/workspace")
 GOLD_PATH = PROJECT_ROOT / "data" / "reports" / "report_001_gold.csv"
-OUTPUT_PATH = PROJECT_ROOT / "data" / "reports" / "report_001_v1_predictions.csv"
+OUTPUT_PATH = PROJECT_ROOT / "data" / "reports" / "report_001_v2_predictions.csv"
 
 
 TARGETS = [
@@ -120,20 +120,20 @@ def language_hint(text: str) -> str:
 # ---------------------------------------------------------------------
 # Negation / uncertainty
 # ---------------------------------------------------------------------
+# ---------------------------------------------------------------------
+# Negation / uncertainty
+# ---------------------------------------------------------------------
 
-NEGATION_PATTERNS = [
-    r"\bno\b",
-    r"\bwithout\b",
-    r"\bnegative for\b",
-    r"\bno evidence of\b",
-    r"\babsence of\b",
-    r"\bnot seen\b",
-    r"\bnot identified\b",
-    r"\bnot demonstrated\b",
-    r"\bno signs of\b",
-    r"\bno sign of\b",
-    r"\bfree of\b",
-    r"\bnone\b",
+NEGATIVE_PATTERNS = [
+    r"\bno tear\b",
+    r"\bno obvious tear\b",
+    r"\bnot torn\b",
+    r"\bwithout tear\b",
+    r"\bno evidence of tear\b",
+    r"\bno injury\b",
+    r"\bwithout injury\b",
+    r"\bintact\b",
+    r"\bnormal\b",
 ]
 
 UNCERTAINTY_PATTERNS = [
@@ -152,6 +152,7 @@ UNCERTAINTY_PATTERNS = [
     r"\bmay be\b",
     r"\bmay indicate\b",
     r"\bconcerning for\b",
+    r"\blikely\b",
 ]
 
 
@@ -172,40 +173,74 @@ def negation_before_match(
     """
     Detect local negation before the target phrase.
 
-    We deliberately use a local window rather than declaring the whole
-    sentence negative. This matters for constructions such as:
-
-        No fracture. Osteochondral fracture elsewhere.
-
+    A local window is used so that a negative statement elsewhere
+    in the sentence does not automatically negate the target.
     """
+
     start = max(0, match_start - window)
     prefix = text[start:match_start].lower()
 
     return any(
         re.search(pattern, prefix)
-        for pattern in NEGATION_PATTERNS
+        for pattern in NEGATIVE_PATTERNS
     )
 
 
-def target_state(
-    sentence: str,
-    match: re.Match,
-) -> str:
+def target_state(sentence: str, match) -> str | None:
     """
     Return:
-        positive
-        negative
-        uncertain
+
+        "positive"   explicit positive
+        "negative"   explicit negative
+        "uncertain"  uncertain evidence
+        None         no usable evidence
+
+    v2 policy:
+        uncertainty has priority over positive/negative evidence.
     """
 
-    if has_uncertainty(sentence):
+    s = normalize_text(sentence)
+
+    # -------------------------------------------------------------
+    # C-policy:
+    # uncertain language is NOT converted into a positive label.
+    #
+    # Examples:
+    #   suspicious tear -> uncertain
+    #   R/O tear        -> uncertain
+    #   likely contusion -> uncertain
+    # -------------------------------------------------------------
+    if has_uncertainty(s):
         return "uncertain"
 
-    if negation_before_match(sentence, match.start()):
+    # -------------------------------------------------------------
+    # Requested v2 A-fixes
+    # -------------------------------------------------------------
+
+    # "without surfacing tear"
+    if re.search(r"\bwithout\b.{0,80}\btear\b", s, flags=re.IGNORECASE):
         return "negative"
 
-    return "positive"
+    # "No evidence of tear ..."
+    if re.search(
+        r"\bno evidence of\b.{0,80}\btear\b",
+        s,
+        flags=re.IGNORECASE,
+    ):
+        return "negative"
 
+    # Existing explicit-negative terminology.
+    if any(
+        re.search(pattern, s, flags=re.IGNORECASE)
+        for pattern in NEGATIVE_PATTERNS
+    ):
+        return "negative"
+
+    # Explicit positive target match.
+    if match:
+        return "positive"
+
+    return None
 
 # ---------------------------------------------------------------------
 # Generic matcher
@@ -620,7 +655,7 @@ def main():
     predictions.to_csv(OUTPUT_PATH, index=False)
 
     print()
-    print("REPORT-001 v1 complete")
+    print("REPORT-001 v2 complete")
     print(f"Output: {OUTPUT_PATH}")
     print(f"Shape: {predictions.shape}")
 
