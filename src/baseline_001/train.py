@@ -44,6 +44,11 @@ def seed_everything(seed):
     torch.backends.cudnn.benchmark = False
 
 
+
+from pathlib import Path
+BASELINE_002_MANIFEST = Path(
+    "/workspace/data/reports/baseline_002_manifest.csv"
+)
 def main():
 
     seed_everything(SEED)
@@ -56,24 +61,70 @@ def main():
 
     print("DEVICE:", device)
 
-    train_df = pd.read_csv(TRAIN_CSV)
+    #train_df = pd.read_csv(TRAIN_CSV)
 
-    manifest = pd.read_csv(ZARR_MANIFEST).copy()
+    manifest = pd.read_csv(BASELINE_002_MANIFEST).copy()
 
     manifest = manifest.drop_duplicates(
         subset=["StudyInstanceUID"],
         keep="last",
     )
-    df = train_df.merge(
-        manifest[
-            [
-                "StudyInstanceUID",
-                "zarr_path",
-            ]
-        ],
-        on="StudyInstanceUID",
-        how="inner",
+
+    missing_targets = [
+        c for c in TARGETS
+        if c not in manifest.columns
+    ]
+
+    if missing_targets:
+        raise RuntimeError(
+            f"Missing targets: {missing_targets}"
+        )
+
+    if manifest["zarr_path"].isna().any():
+        raise RuntimeError(
+            "Missing Zarr paths detected."
+        )
+
+    train_df = manifest[
+        manifest["split"] == "train"
+    ].copy()
+
+    val_df = manifest[
+        manifest["split"] == "val"
+    ].copy()
+
+    print("BASELINE-002 training studies:", len(train_df))
+    print("BASELINE-002 validation studies:", len(val_df))
+
+    print(
+        "Gold train:",
+        (train_df["label_source"] == "gold").sum()
     )
+
+    print(
+        "Weak train:",
+        (train_df["label_source"] == "report_v2.2").sum()
+    )
+
+    print(
+        "Gold validation:",
+        (val_df["label_source"] == "gold").sum()
+    )
+
+    if len(train_df) != 2465:
+        raise RuntimeError(
+            f"Expected 2465 training studies, found {len(train_df)}"
+        )
+
+    if len(val_df) != 12:
+        raise RuntimeError(
+            f"Expected 12 validation studies, found {len(val_df)}"
+        )
+
+    if (val_df["label_source"] != "gold").any():
+        raise RuntimeError(
+            "Validation contains non-gold labels."
+        )
 
     # BASELINE-001: use only studies with all 12
     # structured labels available.
@@ -121,11 +172,14 @@ def main():
     # --------------------------------------------------------
 
     train_df, val_df = train_test_split(
-        df,
-        test_size=VAL_FRACTION,
-        random_state=SEED,
-        shuffle=True,
-    )
+     df,
+    test_size=0.20,
+    random_state=SEED,
+    shuffle=True,
+)
+
+
+  #####
 
     train_df = train_df.reset_index(drop=True)
     val_df = val_df.reset_index(drop=True)
@@ -205,10 +259,13 @@ def main():
         dropout=DROPOUT,
     ).to(device)
 
+    #criterion = torch.nn.BCEWithLogitsLoss(
+        #pos_weight=pos_weight,
+    #)
     criterion = torch.nn.BCEWithLogitsLoss(
-        pos_weight=pos_weight,
-    )
-
+    pos_weight=pos_weight,
+    reduction="none",
+)
     optimizer = torch.optim.AdamW(
         model.parameters(),
         lr=LEARNING_RATE,
@@ -267,20 +324,36 @@ def main():
                 enabled=AMP and device.type == "cuda",
             ):
 
-                logits = model(x)
+                #logits = model(x)
 
                 loss = criterion(
                     logits,
                     y,
                 )
 
-            scaler.scale(loss).backward()
+                logits = model(x)
 
-            scaler.step(optimizer)
-            scaler.update()
+                valid_mask = torch.isfinite(y)
 
-            train_loss += (
-                loss.item() * x.size(0)
+                safe_y = torch.nan_to_num(
+                    y,
+                    nan=0.0,
+                )
+
+                element_loss = criterion(
+                    logits,
+                    safe_y,
+            )
+
+                loss = element_loss[valid_mask].mean()
+
+                scaler.scale(loss).backward()
+
+                scaler.step(optimizer)
+                scaler.update()
+
+                train_loss += (
+                 loss.item() * x.size(0)
             )
 
         train_loss /= len(train_dataset)

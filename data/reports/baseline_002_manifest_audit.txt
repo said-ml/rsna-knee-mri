@@ -1,0 +1,38 @@
+BASELINE-002 MANIFEST AUDIT
+========================================
+BASELINE-001 GOLD SPLIT
+----------------------------------------
+Gold population: 58
+Gold train studies: 46
+Gold validation studies: 12
+Split method: sklearn train_test_split
+Split test_size: 0.2
+Split random_state: 42
+Split shuffle: True
+
+BASELINE-002 TRAINING POPULATION
+----------------------------------------
+Gold train studies: 46
+Report-only population: 4349
+Report-supervised studies: 2419
+Total training studies: 2465
+Validation overlap: 0
+Weak-label pairs: 7887
+Total labeled target pairs: 8439
+
+TARGET COUNTS
+----------------------------------------
+ACL: labeled=1044, positive=319, negative=725
+MCL: labeled=907, positive=87, negative=820
+Medial Meniscus: labeled=693, positive=604, negative=89
+Lateral Meniscus: labeled=484, positive=305, negative=179
+Medial OA: labeled=133, positive=98, negative=35
+Lateral OA: labeled=80, positive=45, negative=35
+PF OA: labeled=156, positive=127, negative=29
+Effusion: labeled=2147, positive=1621, negative=526
+Synovitis: labeled=440, positive=417, negative=23
+Baker's: labeled=943, positive=486, negative=457
+Contusion: labeled=681, positive=262, negative=419
+Fracture: labeled=731, positive=262, negative=469
+
+STATUS: PASS
