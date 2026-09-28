@@ -8,7 +8,7 @@ BASELINE-001
 -------------------------------
 Training studies:       58 \
 Train / validation:    46 / 12 \
-Model:                 3D CNN
+Model:                 3D CNN  \ 
 Input:                 1×32×128×128 \ 
 Series:                sagittal, fluid-sensitive preferred \
 Normalization:         1–99 percentile → [-1,1]  \

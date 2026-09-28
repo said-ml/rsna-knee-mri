@@ -16,4 +16,6 @@ Best macro-AUROC:     0.701860
 
 Epoch 8 macro-AUROC:  0.424982
 
+lb = 0.517 #overfitting
+
 ``` 

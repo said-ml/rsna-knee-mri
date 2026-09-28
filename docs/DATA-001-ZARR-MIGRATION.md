@@ -173,6 +173,11 @@ The deletion manifest records the exact DICOM series removed.
 
 The conversion manifests record the corresponding Zarr conversions.
 
+
+
+4,371 total Zarr series, 530.07 GiB DICOM reclaimed, and 464.89 GiB free.
+
+
 ---
 
 ## Important Invariant

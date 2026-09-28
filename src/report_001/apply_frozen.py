@@ -13,7 +13,7 @@ EXPECTED_SHA256 = (
     "8b6145a1e5659c410bd629bd7acf0067b3d16fa5d0ab23bea9a9d6c6a3f1269d"
 )
 
-PROJECT_ROOT = Path("/workspace")
+PROJECT_ROOT = Path("/workspace/")
 
 FROZEN_EXTRACTOR = (
     PROJECT_ROOT / "src" / "report_001" / "extractor_v2.py"
