@@ -1,0 +1,697 @@
+StudyInstanceUID,target,gold,pred,polarity,evidence,matched_evidence,confidence
+1.2.826.0.1.3680043.8.498.10095687747295410396510538520594649149,ACL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.10095687747295410396510538520594649149,MCL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.10095687747295410396510538520594649149,Medial Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.10095687747295410396510538520594649149,Lateral Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.10095687747295410396510538520594649149,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.10095687747295410396510538520594649149,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.10095687747295410396510538520594649149,PF OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.10095687747295410396510538520594649149,Effusion,1.0,1,positive,Leve derrame articular.,derrame articular,high
+1.2.826.0.1.3680043.8.498.10095687747295410396510538520594649149,Synovitis,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.10095687747295410396510538520594649149,Baker's,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.10095687747295410396510538520594649149,Contusion,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.10095687747295410396510538520594649149,Fracture,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.10170898615867673028696505248839028269,ACL,0.0,0,negative,ACL is intact.,ACL is intact,high
+1.2.826.0.1.3680043.8.498.10170898615867673028696505248839028269,MCL,0.0,0,negative,The MCL is intact.,MCL is intact,high
+1.2.826.0.1.3680043.8.498.10170898615867673028696505248839028269,Medial Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.10170898615867673028696505248839028269,Lateral Meniscus,1.0,1,positive,Horizontal tear at anterior horn of the lateral meniscus is noted. | Horizontal tear at anterior horn of the lateral meniscus.,tear at anterior horn of the lateral meniscus,high
+1.2.826.0.1.3680043.8.498.10170898615867673028696505248839028269,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.10170898615867673028696505248839028269,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.10170898615867673028696505248839028269,PF OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.10170898615867673028696505248839028269,Effusion,0.0,1,positive,"Moderate joint effusion, distended suprapatellar bursa with thickend synovial tissue are observed.",Moderate joint effusion,high
+1.2.826.0.1.3680043.8.498.10170898615867673028696505248839028269,Synovitis,1.0,1,positive,"Chronic reactive synovitis, suprapatellar bursitis",synovitis,high
+1.2.826.0.1.3680043.8.498.10170898615867673028696505248839028269,Baker's,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.10170898615867673028696505248839028269,Contusion,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.10170898615867673028696505248839028269,Fracture,0.0,,conflict,"No fracture is seen. | Osteochondral fracture at lateral patellar facet, about 8x12mm.",No fracture | fracture,conflict
+1.2.826.0.1.3680043.8.498.10306159113324811538703788080836752052,ACL,0.0,0,negative,CRUCIATE LIGAMENTS: Anterior cruciate ligament (ACL): Normal with both bundles intact.,Anterior cruciate ligament (ACL): Normal with both bundles intact,high
+1.2.826.0.1.3680043.8.498.10306159113324811538703788080836752052,MCL,0.0,0,negative,COLLATERAL LIGAMENTS & POSTEROLATERAL CORNER: Medial collateral ligament (MCL): Normal.,Medial collateral ligament (MCL): Normal,high
+1.2.826.0.1.3680043.8.498.10306159113324811538703788080836752052,Medial Meniscus,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.10306159113324811538703788080836752052,Lateral Meniscus,0.0,1,positive,LATERAL COMPARTMENT: Lateral meniscus: Degenerative signal throughout the lateral meniscus without surfacing tear.,Lateral meniscus: Degenerative signal throughout the lateral meniscus without surfacing tear,high
+1.2.826.0.1.3680043.8.498.10306159113324811538703788080836752052,Medial OA,1.0,1,positive,Tricompartmental osteoarthritis worse in the medial compartment.,osteoarthritis worse in the medial compartment,high
+1.2.826.0.1.3680043.8.498.10306159113324811538703788080836752052,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.10306159113324811538703788080836752052,PF OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.10306159113324811538703788080836752052,Effusion,0.0,1,positive,Tricompartmental marginal osteophytes JOINT SPACE: Small joint effusion.,Small joint effusion,high
+1.2.826.0.1.3680043.8.498.10306159113324811538703788080836752052,Synovitis,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.10306159113324811538703788080836752052,Baker's,0.0,0,negative,No Baker's cyst.,No Baker's cyst,high
+1.2.826.0.1.3680043.8.498.10306159113324811538703788080836752052,Contusion,0.0,0,negative,No acute fracture or bone bruise.,No acute fracture or bone bruise,high
+1.2.826.0.1.3680043.8.498.10306159113324811538703788080836752052,Fracture,0.0,0,negative,No acute fracture or bone bruise.,No acute fracture,high
+1.2.826.0.1.3680043.8.498.11287937729196958426538087439102017580,ACL,0.0,0,negative,"> There is no increased intensity in the ACL, MCL and LCL, it appears to be normal > Interstitial high intensity, irregular contour and laxity in the PCL, suspected complete tear > Synovial membrane thickening in the knee joint with fluid accumulation and hofa fat pad stranding, knee arthritis with hoffitis noted > Fluid accumulated in the suprapatella bursa with quadricep and prefemoral fat pad stranding, suprapatellar bursitis noted > Fluid accumulated in the posterior medial condyle region > Medial plica and suprapatellar plicae noted > Relatively enlarged caliber of the popliteal vein with heterogenous hyperintensity (srs: 6, Img: 24-30) and prominenet superficial veines, the possiblity of deep vein thrombosis can't totally excluded.","ACL, MCL and LCL, it appears to be normal",high
+1.2.826.0.1.3680043.8.498.11287937729196958426538087439102017580,MCL,0.0,0,negative,"> There is no increased intensity in the ACL, MCL and LCL, it appears to be normal > Interstitial high intensity, irregular contour and laxity in the PCL, suspected complete tear > Synovial membrane thickening in the knee joint with fluid accumulation and hofa fat pad stranding, knee arthritis with hoffitis noted > Fluid accumulated in the suprapatella bursa with quadricep and prefemoral fat pad stranding, suprapatellar bursitis noted > Fluid accumulated in the posterior medial condyle region > Medial plica and suprapatellar plicae noted > Relatively enlarged caliber of the popliteal vein with heterogenous hyperintensity (srs: 6, Img: 24-30) and prominenet superficial veines, the possiblity of deep vein thrombosis can't totally excluded.","MCL and LCL, it appears to be normal",high
+1.2.826.0.1.3680043.8.498.11287937729196958426538087439102017580,Medial Meniscus,0.0,0,negative,"MRI of left Knee with -3-Plane Loc R'T, Sag PD FS, AX T2 FS, Sag T2 FS, Sag T1, CORT2 FS > There is no abnormal intensity or articular surface disrupt in the medial meniscus, It appears to be normal.","medial meniscus, It appears to be normal",high
+1.2.826.0.1.3680043.8.498.11287937729196958426538087439102017580,Lateral Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11287937729196958426538087439102017580,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11287937729196958426538087439102017580,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11287937729196958426538087439102017580,PF OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11287937729196958426538087439102017580,Effusion,1.0,1,positive,Synovitis of left knee and massive joint effusion and suprapatellar bursitis; complex plicae.,massive joint effusion,high
+1.2.826.0.1.3680043.8.498.11287937729196958426538087439102017580,Synovitis,0.0,1,positive,Synovitis of left knee and massive joint effusion and suprapatellar bursitis; complex plicae.,Synovitis,high
+1.2.826.0.1.3680043.8.498.11287937729196958426538087439102017580,Baker's,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11287937729196958426538087439102017580,Contusion,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11287937729196958426538087439102017580,Fracture,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11382021393803389951964005983002209238,ACL,1.0,1,positive,"In the intercondylar notch, there is complete tear of the anterior cruciate ligament, at mid substance. | -- Complete tear of the anterior cruciate ligament, at mid substance.",tear of the anterior cruciate ligament,high
+1.2.826.0.1.3680043.8.498.11382021393803389951964005983002209238,MCL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11382021393803389951964005983002209238,Medial Meniscus,1.0,1,positive,"In the medial compartment, there is longitudinal vertical tear at the body and posterior horn of the medial meniscus. | -- Longitudinal vertical tear at the body and posterior horn of the medial meniscus.",tear at the body and posterior horn of the medial meniscus,high
+1.2.826.0.1.3680043.8.498.11382021393803389951964005983002209238,Lateral Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11382021393803389951964005983002209238,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11382021393803389951964005983002209238,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11382021393803389951964005983002209238,PF OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11382021393803389951964005983002209238,Effusion,0.0,0,negative,No knee effusion is present.,No knee effusion,high
+1.2.826.0.1.3680043.8.498.11382021393803389951964005983002209238,Synovitis,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11382021393803389951964005983002209238,Baker's,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11382021393803389951964005983002209238,Contusion,0.0,0,negative,There is no fracture or bone contusion.,no fracture or bone contusion,high
+1.2.826.0.1.3680043.8.498.11382021393803389951964005983002209238,Fracture,0.0,0,negative,There is no fracture or bone contusion.,no fracture,high
+1.2.826.0.1.3680043.8.498.11548045715264151632153040089882701935,ACL,0.0,1,positive,"In the intercondylar notch, there is interstitial tear of the anterior cruciate ligament, at mid substance. | Interstitial tear of the anterior cruciate ligament, at mid substance.",tear of the anterior cruciate ligament,high
+1.2.826.0.1.3680043.8.498.11548045715264151632153040089882701935,MCL,0.0,0,negative,The medial collateral ligament complexes are intact.,medial collateral ligament complexes are intact,high
+1.2.826.0.1.3680043.8.498.11548045715264151632153040089882701935,Medial Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11548045715264151632153040089882701935,Lateral Meniscus,0.0,1,positive,"The lateral compartment, there is complex tear (main radial and longitudinal vertical component) at the posterior horn of the lateral meniscus. | Complex tear (main radial and longitudinal vertical component) at the posterior horn of the lateral meniscus.",tear (main radial and longitudinal vertical component) at the posterior horn of the lateral meniscus,high
+1.2.826.0.1.3680043.8.498.11548045715264151632153040089882701935,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11548045715264151632153040089882701935,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11548045715264151632153040089882701935,PF OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11548045715264151632153040089882701935,Effusion,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11548045715264151632153040089882701935,Synovitis,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11548045715264151632153040089882701935,Baker's,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11548045715264151632153040089882701935,Contusion,1.0,,conflict,There is popliteus muscle contusion. | There is no fracture or bone contusion. | Popliteus muscle contusion.,contusion | no fracture or bone contusion,conflict
+1.2.826.0.1.3680043.8.498.11548045715264151632153040089882701935,Fracture,0.0,0,negative,There is no fracture or bone contusion.,no fracture,high
+1.2.826.0.1.3680043.8.498.11557620559191469069130827959098335840,ACL,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11557620559191469069130827959098335840,MCL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11557620559191469069130827959098335840,Medial Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11557620559191469069130827959098335840,Lateral Meniscus,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11557620559191469069130827959098335840,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11557620559191469069130827959098335840,Lateral OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11557620559191469069130827959098335840,PF OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11557620559191469069130827959098335840,Effusion,1.0,1,positive,"Leve a moderado derrame articular, probablemente hemartrosis. | Leve a moderado derrame articular, probablemente hemartrosis",derrame articular,high
+1.2.826.0.1.3680043.8.498.11557620559191469069130827959098335840,Synovitis,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11557620559191469069130827959098335840,Baker's,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11557620559191469069130827959098335840,Contusion,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11557620559191469069130827959098335840,Fracture,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11771393824519892797114773408583976756,ACL,0.0,,conflict,"* Interstitial hyperintense signal of ACL, in favor of grade 1 injury. | > The contour of ACL & PCL appear to be within normal.","ACL, in favor of grade 1 injury | ACL & PCL appear to be within normal",conflict
+1.2.826.0.1.3680043.8.498.11771393824519892797114773408583976756,MCL,1.0,1,positive,"MRI of Knee with -Locator, SG PD FatSat, SG T2W FS, SG T1W, CO T2W FS, AX T2W FS * High signal in the soft tissue medial to the medial collateral ligament with mild increased signal intensity of proximal ligament, suspect grade 2 injury.","medial collateral ligament with mild increased signal intensity of proximal ligament, suspect grade 2 injury",high
+1.2.826.0.1.3680043.8.498.11771393824519892797114773408583976756,Medial Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11771393824519892797114773408583976756,Lateral Meniscus,0.0,0,negative,> No evidence of tear noted in either medial or lateral meniscus in this study.,No evidence of tear noted in either medial or lateral meniscus,high
+1.2.826.0.1.3680043.8.498.11771393824519892797114773408583976756,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11771393824519892797114773408583976756,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11771393824519892797114773408583976756,PF OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11771393824519892797114773408583976756,Effusion,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11771393824519892797114773408583976756,Synovitis,0.0,1,positive,"* Some joint effusion of right knee with mild hypertrophy of the synovium, indicative of synovitis. | Mild synovitis of right knee joint.",synovitis,high
+1.2.826.0.1.3680043.8.498.11771393824519892797114773408583976756,Baker's,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11771393824519892797114773408583976756,Contusion,1.0,1,positive,"* Bone marrow edema in bilateral femoral condyles and anteromedial and posterolateral aspect of proximal tibia, suspect bone contusion. | Bone marrow edema in distal femur and proximal tibia (major at anteromedial and posterolateral aspect), suspect bone contusion.",bone contusion,high
+1.2.826.0.1.3680043.8.498.11771393824519892797114773408583976756,Fracture,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11851412923016044948101698015974810604,ACL,0.0,0,negative,CRUCIATE LIGAMENTS: Anterior cruciate ligament (ACL): Normal with both bundles intact.,Anterior cruciate ligament (ACL): Normal with both bundles intact,high
+1.2.826.0.1.3680043.8.498.11851412923016044948101698015974810604,MCL,0.0,0,negative,COLLATERAL LIGAMENTS & POSTEROLATERAL CORNER: Medial collateral ligament (MCL): Normal.,Medial collateral ligament (MCL): Normal,high
+1.2.826.0.1.3680043.8.498.11851412923016044948101698015974810604,Medial Meniscus,1.0,1,positive,MEDIAL COMPARTMENT: Medial meniscus: Complete radial tear of the posterior root of medial meniscus with mild extrusion.,Medial meniscus: Complete radial tear,high
+1.2.826.0.1.3680043.8.498.11851412923016044948101698015974810604,Lateral Meniscus,1.0,1,positive,LATERAL COMPARTMENT: Lateral meniscus: Partial inner margin radial tear at the anterior horn/body junction of the lateral meniscus without extrusion.,Lateral meniscus: Partial inner margin radial tear,high
+1.2.826.0.1.3680043.8.498.11851412923016044948101698015974810604,Medial OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11851412923016044948101698015974810604,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11851412923016044948101698015974810604,PF OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11851412923016044948101698015974810604,Effusion,1.0,1,positive,JOINT SPACE: Small joint effusion. | Small knee effusion.,Small joint effusion | Small knee effusion,high
+1.2.826.0.1.3680043.8.498.11851412923016044948101698015974810604,Synovitis,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11851412923016044948101698015974810604,Baker's,0.0,1,positive,Trace Baker's cyst.,Baker's cyst,high
+1.2.826.0.1.3680043.8.498.11851412923016044948101698015974810604,Contusion,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11851412923016044948101698015974810604,Fracture,1.0,1,positive,Subchondral insufficiency fracture at the medial margin of the medial tibial plateau without articular surface collapse.,fracture,high
+1.2.826.0.1.3680043.8.498.11915937982684988073644209606907169581,ACL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11915937982684988073644209606907169581,MCL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11915937982684988073644209606907169581,Medial Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11915937982684988073644209606907169581,Lateral Meniscus,1.0,1,positive,"Lateral compartment (meniscus, collateral ligament complex, cartilage): There is a complex degenerative tear of the lateral meniscus with partial maceration of the anterior horn and anterior body, as well as a longitudinal oblique component involving the posterior horn. | - Complex degenerative tear of the lateral meniscus with tiny displaced fragment.",tear of the lateral meniscus,high
+1.2.826.0.1.3680043.8.498.11915937982684988073644209606907169581,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11915937982684988073644209606907169581,Lateral OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11915937982684988073644209606907169581,PF OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11915937982684988073644209606907169581,Effusion,1.0,1,positive,FINDINGS: Fluid: Small joint effusion with synovial thickening compatible with synovitis. | - Small joint effusion with synovitis.,Small joint effusion,high
+1.2.826.0.1.3680043.8.498.11915937982684988073644209606907169581,Synovitis,1.0,1,positive,FINDINGS: Fluid: Small joint effusion with synovial thickening compatible with synovitis. | - Small joint effusion with synovitis.,synovitis,high
+1.2.826.0.1.3680043.8.498.11915937982684988073644209606907169581,Baker's,1.0,1,positive,There is popliteal cyst measuring 21 x 17 x 35 mm. | Small amount of edema along the inferior margin of the popliteal cyst suggesting a minimal partial rupture. | - Moderate-sized popliteal cyst with minimal partial rupture.,popliteal cyst,high
+1.2.826.0.1.3680043.8.498.11915937982684988073644209606907169581,Contusion,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.11915937982684988073644209606907169581,Fracture,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12448079646359892252441208258836556945,ACL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12448079646359892252441208258836556945,MCL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12448079646359892252441208258836556945,Medial Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12448079646359892252441208258836556945,Lateral Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12448079646359892252441208258836556945,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12448079646359892252441208258836556945,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12448079646359892252441208258836556945,PF OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12448079646359892252441208258836556945,Effusion,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12448079646359892252441208258836556945,Synovitis,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12448079646359892252441208258836556945,Baker's,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12448079646359892252441208258836556945,Contusion,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12448079646359892252441208258836556945,Fracture,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12505035424093604269515328931488770819,ACL,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12505035424093604269515328931488770819,MCL,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12505035424093604269515328931488770819,Medial Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12505035424093604269515328931488770819,Lateral Meniscus,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12505035424093604269515328931488770819,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12505035424093604269515328931488770819,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12505035424093604269515328931488770819,PF OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12505035424093604269515328931488770819,Effusion,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12505035424093604269515328931488770819,Synovitis,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12505035424093604269515328931488770819,Baker's,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12505035424093604269515328931488770819,Contusion,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12505035424093604269515328931488770819,Fracture,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12606657226568558340797193167488111973,ACL,1.0,1,positive,"In the intercondylar notch, there is complete tear of the anterior cruciate ligament, at mid substance. | - Complete tear of the anterior cruciate ligament, at mid substance.",tear of the anterior cruciate ligament,high
+1.2.826.0.1.3680043.8.498.12606657226568558340797193167488111973,MCL,1.0,1,positive,There is grade II ligamentous sprain (partial tear) of the medial collateral ligament. | - Grade II ligamentous sprain (partial tear) of the medial collateral ligament.,tear) of the medial collateral ligament,high
+1.2.826.0.1.3680043.8.498.12606657226568558340797193167488111973,Medial Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12606657226568558340797193167488111973,Lateral Meniscus,1.0,1,positive,"The lateral compartment, there is longitudinal vertical oblique tear at the posterior horn of the lateral meniscus. | - Longitudinal vertical oblique tear at the posterior horn of the lateral meniscus.",tear at the posterior horn of the lateral meniscus,high
+1.2.826.0.1.3680043.8.498.12606657226568558340797193167488111973,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12606657226568558340797193167488111973,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12606657226568558340797193167488111973,PF OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12606657226568558340797193167488111973,Effusion,0.0,0,negative,No knee effusion is present.,No knee effusion,high
+1.2.826.0.1.3680043.8.498.12606657226568558340797193167488111973,Synovitis,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12606657226568558340797193167488111973,Baker's,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12606657226568558340797193167488111973,Contusion,0.0,0,negative,There is no fracture or bone contusion.,no fracture or bone contusion,high
+1.2.826.0.1.3680043.8.498.12606657226568558340797193167488111973,Fracture,0.0,0,negative,There is no fracture or bone contusion.,no fracture,high
+1.2.826.0.1.3680043.8.498.12801308844398614687904447633432197492,ACL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12801308844398614687904447633432197492,MCL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12801308844398614687904447633432197492,Medial Meniscus,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12801308844398614687904447633432197492,Lateral Meniscus,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12801308844398614687904447633432197492,Medial OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12801308844398614687904447633432197492,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12801308844398614687904447633432197492,PF OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12801308844398614687904447633432197492,Effusion,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12801308844398614687904447633432197492,Synovitis,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12801308844398614687904447633432197492,Baker's,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12801308844398614687904447633432197492,Contusion,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12801308844398614687904447633432197492,Fracture,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12978510157202852202776899910529174803,ACL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12978510157202852202776899910529174803,MCL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12978510157202852202776899910529174803,Medial Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12978510157202852202776899910529174803,Lateral Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12978510157202852202776899910529174803,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12978510157202852202776899910529174803,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12978510157202852202776899910529174803,PF OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12978510157202852202776899910529174803,Effusion,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12978510157202852202776899910529174803,Synovitis,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12978510157202852202776899910529174803,Baker's,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12978510157202852202776899910529174803,Contusion,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.12978510157202852202776899910529174803,Fracture,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.13267780356245120052411517053322874891,ACL,0.0,1,positive,"> The contour of ACL is not all in a straight line but increase signal intensity inside, in favor of grade 2 injury.","ACL is not all in a straight line but increase signal intensity inside, in favor of grade 2 injury",high
+1.2.826.0.1.3680043.8.498.13267780356245120052411517053322874891,MCL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.13267780356245120052411517053322874891,Medial Meniscus,0.0,,conflict,"> There are linear signal intensity in anterior horn of medial meniscus, it extends into the surface, in favor of tear. | > Medial meniscus appears to be normal.","medial meniscus, it extends into the surface, in favor of tear | Medial meniscus appears to be normal",conflict
+1.2.826.0.1.3680043.8.498.13267780356245120052411517053322874891,Lateral Meniscus,1.0,1,positive,Tear of anterior horn of lateral meniscus.,Tear of anterior horn of lateral meniscus,high
+1.2.826.0.1.3680043.8.498.13267780356245120052411517053322874891,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.13267780356245120052411517053322874891,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.13267780356245120052411517053322874891,PF OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.13267780356245120052411517053322874891,Effusion,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.13267780356245120052411517053322874891,Synovitis,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.13267780356245120052411517053322874891,Baker's,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.13267780356245120052411517053322874891,Contusion,0.0,1,positive,> Split fractures at tibial plateau with depression of the lateral articular surface and extending to tibial intercondylar region > Bone contusion with neglected fracture line at fibular head. | C/W Tibia plateau fracutre and fibular head fracture with bone contusion.,Bone contusion | bone contusion,high
+1.2.826.0.1.3680043.8.498.13267780356245120052411517053322874891,Fracture,1.0,1,positive,> Split fractures at tibial plateau with depression of the lateral articular surface and extending to tibial intercondylar region > Bone contusion with neglected fracture line at fibular head. | C/W Tibia plateau fracutre and fibular head fracture with bone contusion.,fracture,high
+1.2.826.0.1.3680043.8.498.13335129881737731410081002627729200903,ACL,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.13335129881737731410081002627729200903,MCL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.13335129881737731410081002627729200903,Medial Meniscus,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.13335129881737731410081002627729200903,Lateral Meniscus,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.13335129881737731410081002627729200903,Medial OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.13335129881737731410081002627729200903,Lateral OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.13335129881737731410081002627729200903,PF OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.13335129881737731410081002627729200903,Effusion,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.13335129881737731410081002627729200903,Synovitis,1.0,1,positive,"Besluit: Gevorderde gonartrose van de rechterknie, op heden met hydrops, chronische synovitis, gevorderde muco ïde degeneratie voorste kruisband, recente scheur van popliteale cyste , echter zonder significant botoedeem .",synovitis,high
+1.2.826.0.1.3680043.8.498.13335129881737731410081002627729200903,Baker's,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.13335129881737731410081002627729200903,Contusion,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.13335129881737731410081002627729200903,Fracture,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.15593638897292057356864060466120253309,ACL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.15593638897292057356864060466120253309,MCL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.15593638897292057356864060466120253309,Medial Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.15593638897292057356864060466120253309,Lateral Meniscus,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.15593638897292057356864060466120253309,Medial OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.15593638897292057356864060466120253309,Lateral OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.15593638897292057356864060466120253309,PF OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.15593638897292057356864060466120253309,Effusion,0.0,1,positive,Leve derrame articular con discreta sinovitis. | Leve derrame articular con discreta sinovitis difusa.,derrame articular,high
+1.2.826.0.1.3680043.8.498.15593638897292057356864060466120253309,Synovitis,1.0,1,positive,Leve derrame articular con discreta sinovitis. | Leve derrame articular con discreta sinovitis difusa.,sinovitis,high
+1.2.826.0.1.3680043.8.498.15593638897292057356864060466120253309,Baker's,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.15593638897292057356864060466120253309,Contusion,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.15593638897292057356864060466120253309,Fracture,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.16060119389060497136231217718921482192,ACL,0.0,0,negative,ACL normal.,ACL normal,high
+1.2.826.0.1.3680043.8.498.16060119389060497136231217718921482192,MCL,0.0,0,negative,MCL normal.,MCL normal,high
+1.2.826.0.1.3680043.8.498.16060119389060497136231217718921482192,Medial Meniscus,1.0,1,positive,Medial meniscus tear. | Conclusion: Medial meniscus tear.,Medial meniscus tear,high
+1.2.826.0.1.3680043.8.498.16060119389060497136231217718921482192,Lateral Meniscus,1.0,1,positive,Lateral meniscus tear.,Lateral meniscus tear,high
+1.2.826.0.1.3680043.8.498.16060119389060497136231217718921482192,Medial OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.16060119389060497136231217718921482192,Lateral OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.16060119389060497136231217718921482192,PF OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.16060119389060497136231217718921482192,Effusion,1.0,1,positive,Large effusion.,Large effusion,high
+1.2.826.0.1.3680043.8.498.16060119389060497136231217718921482192,Synovitis,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.16060119389060497136231217718921482192,Baker's,1.0,1,positive,Baker's cyst present.,Baker's cyst,high
+1.2.826.0.1.3680043.8.498.16060119389060497136231217718921482192,Contusion,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.16060119389060497136231217718921482192,Fracture,1.0,1,positive,Insufficient fracture of medial femoral condyl with adjacent bone marrow oedema. | Medial condyl fracture.,fracture,high
+1.2.826.0.1.3680043.8.498.17844546765907321649997094867791102711,ACL,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.17844546765907321649997094867791102711,MCL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.17844546765907321649997094867791102711,Medial Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.17844546765907321649997094867791102711,Lateral Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.17844546765907321649997094867791102711,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.17844546765907321649997094867791102711,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.17844546765907321649997094867791102711,PF OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.17844546765907321649997094867791102711,Effusion,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.17844546765907321649997094867791102711,Synovitis,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.17844546765907321649997094867791102711,Baker's,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.17844546765907321649997094867791102711,Contusion,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.17844546765907321649997094867791102711,Fracture,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.18392509497170616983977319528036573378,ACL,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.18392509497170616983977319528036573378,MCL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.18392509497170616983977319528036573378,Medial Meniscus,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.18392509497170616983977319528036573378,Lateral Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.18392509497170616983977319528036573378,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.18392509497170616983977319528036573378,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.18392509497170616983977319528036573378,PF OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.18392509497170616983977319528036573378,Effusion,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.18392509497170616983977319528036573378,Synovitis,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.18392509497170616983977319528036573378,Baker's,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.18392509497170616983977319528036573378,Contusion,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.18392509497170616983977319528036573378,Fracture,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.22109739962224309418874538994436903404,ACL,0.0,0,negative,CRUCIATE LIGAMENTS: Anterior cruciate ligament (ACL): Normal with both bundles intact.,Anterior cruciate ligament (ACL): Normal with both bundles intact,high
+1.2.826.0.1.3680043.8.498.22109739962224309418874538994436903404,MCL,0.0,0,negative,COLLATERAL LIGAMENTS & POSTEROLATERAL CORNER: Medial collateral ligament (MCL): Normal.,Medial collateral ligament (MCL): Normal,high
+1.2.826.0.1.3680043.8.498.22109739962224309418874538994436903404,Medial Meniscus,0.0,0,negative,MEDIAL COMPARTMENT: Medial meniscus: Normal in morphology and signal.,Medial meniscus: Normal,high
+1.2.826.0.1.3680043.8.498.22109739962224309418874538994436903404,Lateral Meniscus,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.22109739962224309418874538994436903404,Medial OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.22109739962224309418874538994436903404,Lateral OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.22109739962224309418874538994436903404,PF OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.22109739962224309418874538994436903404,Effusion,0.0,1,positive,JOINT SPACE: Small joint effusion. | Small joint effusion.,Small joint effusion,high
+1.2.826.0.1.3680043.8.498.22109739962224309418874538994436903404,Synovitis,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.22109739962224309418874538994436903404,Baker's,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.22109739962224309418874538994436903404,Contusion,0.0,0,negative,No acute fracture or bone bruise.,No acute fracture or bone bruise,high
+1.2.826.0.1.3680043.8.498.22109739962224309418874538994436903404,Fracture,0.0,0,negative,No acute fracture or bone bruise.,No acute fracture,high
+1.2.826.0.1.3680043.8.498.25695966186129395049687747156570466645,ACL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.25695966186129395049687747156570466645,MCL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.25695966186129395049687747156570466645,Medial Meniscus,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.25695966186129395049687747156570466645,Lateral Meniscus,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.25695966186129395049687747156570466645,Medial OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.25695966186129395049687747156570466645,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.25695966186129395049687747156570466645,PF OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.25695966186129395049687747156570466645,Effusion,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.25695966186129395049687747156570466645,Synovitis,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.25695966186129395049687747156570466645,Baker's,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.25695966186129395049687747156570466645,Contusion,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.25695966186129395049687747156570466645,Fracture,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.26790702379506190936834447203448882465,ACL,1.0,1,positive,Conclusion: ACL rupture.,ACL rupture,high
+1.2.826.0.1.3680043.8.498.26790702379506190936834447203448882465,MCL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.26790702379506190936834447203448882465,Medial Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.26790702379506190936834447203448882465,Lateral Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.26790702379506190936834447203448882465,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.26790702379506190936834447203448882465,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.26790702379506190936834447203448882465,PF OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.26790702379506190936834447203448882465,Effusion,0.0,1,positive,There is a mild knee effusion.,mild knee effusion,high
+1.2.826.0.1.3680043.8.498.26790702379506190936834447203448882465,Synovitis,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.26790702379506190936834447203448882465,Baker's,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.26790702379506190936834447203448882465,Contusion,1.0,1,positive,There is mild residual bone contusion in the weightbearing aspect of the lateral femoral condyle and posterior aspect of the lateral tibial condyle.,bone contusion,high
+1.2.826.0.1.3680043.8.498.26790702379506190936834447203448882465,Fracture,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.27437263843446879932281897446100134924,ACL,0.0,0,negative,ACL normal.,ACL normal,high
+1.2.826.0.1.3680043.8.498.27437263843446879932281897446100134924,MCL,0.0,0,negative,MCL normal.,MCL normal,high
+1.2.826.0.1.3680043.8.498.27437263843446879932281897446100134924,Medial Meniscus,1.0,1,positive,Medial meniscus tear. | Conclusion: Medial meniscus tear.,Medial meniscus tear,high
+1.2.826.0.1.3680043.8.498.27437263843446879932281897446100134924,Lateral Meniscus,0.0,0,negative,Lateral meniscus normal.,Lateral meniscus normal,high
+1.2.826.0.1.3680043.8.498.27437263843446879932281897446100134924,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.27437263843446879932281897446100134924,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.27437263843446879932281897446100134924,PF OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.27437263843446879932281897446100134924,Effusion,0.0,0,negative,No effusion.,No effusion,high
+1.2.826.0.1.3680043.8.498.27437263843446879932281897446100134924,Synovitis,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.27437263843446879932281897446100134924,Baker's,0.0,0,negative,No baker's cyst.,No baker's cyst,high
+1.2.826.0.1.3680043.8.498.27437263843446879932281897446100134924,Contusion,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.27437263843446879932281897446100134924,Fracture,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.28925345859498351203477642741908452608,ACL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.28925345859498351203477642741908452608,MCL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.28925345859498351203477642741908452608,Medial Meniscus,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.28925345859498351203477642741908452608,Lateral Meniscus,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.28925345859498351203477642741908452608,Medial OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.28925345859498351203477642741908452608,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.28925345859498351203477642741908452608,PF OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.28925345859498351203477642741908452608,Effusion,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.28925345859498351203477642741908452608,Synovitis,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.28925345859498351203477642741908452608,Baker's,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.28925345859498351203477642741908452608,Contusion,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.28925345859498351203477642741908452608,Fracture,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.29764868091238287072166823522853419550,ACL,1.0,1,positive,ACL rupture.,ACL rupture,high
+1.2.826.0.1.3680043.8.498.29764868091238287072166823522853419550,MCL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.29764868091238287072166823522853419550,Medial Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.29764868091238287072166823522853419550,Lateral Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.29764868091238287072166823522853419550,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.29764868091238287072166823522853419550,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.29764868091238287072166823522853419550,PF OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.29764868091238287072166823522853419550,Effusion,0.0,,conflict,No evidence of knee effusion. | Conclusion: Mild effusion.,No evidence of knee effusion | Mild effusion,conflict
+1.2.826.0.1.3680043.8.498.29764868091238287072166823522853419550,Synovitis,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.29764868091238287072166823522853419550,Baker's,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.29764868091238287072166823522853419550,Contusion,1.0,1,positive,A bone contusion is noted in the posterolateral corner of the lateral tibial plateau. | Posterolateral tibial contusion.,bone contusion | contusion,high
+1.2.826.0.1.3680043.8.498.29764868091238287072166823522853419550,Fracture,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.30246079718471552972130572444383079911,ACL,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.30246079718471552972130572444383079911,MCL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.30246079718471552972130572444383079911,Medial Meniscus,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.30246079718471552972130572444383079911,Lateral Meniscus,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.30246079718471552972130572444383079911,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.30246079718471552972130572444383079911,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.30246079718471552972130572444383079911,PF OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.30246079718471552972130572444383079911,Effusion,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.30246079718471552972130572444383079911,Synovitis,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.30246079718471552972130572444383079911,Baker's,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.30246079718471552972130572444383079911,Contusion,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.30246079718471552972130572444383079911,Fracture,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.32321830776739689645700555055955725945,ACL,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.32321830776739689645700555055955725945,MCL,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.32321830776739689645700555055955725945,Medial Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.32321830776739689645700555055955725945,Lateral Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.32321830776739689645700555055955725945,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.32321830776739689645700555055955725945,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.32321830776739689645700555055955725945,PF OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.32321830776739689645700555055955725945,Effusion,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.32321830776739689645700555055955725945,Synovitis,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.32321830776739689645700555055955725945,Baker's,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.32321830776739689645700555055955725945,Contusion,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.32321830776739689645700555055955725945,Fracture,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.37040910196459054543310335064167212742,ACL,1.0,1,positive,"MRI of Knee with -3-Plane Loc, Sag PD FS, Sag T2 FS, Sag T1, Cor T2 FS, Screen Save, Ax T2 FS * The contour of ACL is not in a straight line and increased signal intensity inside on F/S T2WI, in favor of tear. | ACL tear.","ACL is not in a straight line and increased signal intensity inside on F/S T2WI, in favor of tear | ACL tear",high
+1.2.826.0.1.3680043.8.498.37040910196459054543310335064167212742,MCL,0.0,1,positive,"* High signal in the soft tissue medial to the medial collateral ligament with increased signal intensity of proximal ligament (deep MCL/meniscofemoral ligament), in favor of grade 2 injury.","MCL/meniscofemoral ligament), in favor of grade 2 injury",high
+1.2.826.0.1.3680043.8.498.37040910196459054543310335064167212742,Medial Meniscus,1.0,1,positive,"* Linear signal intensity in the body and posterior horn of medial meniscus with extension to the surface, in favor of tear. | Meniscal tear in the body and posterior horn of medial meniscus; suspect posterior root tear of lateral meniscus.","medial meniscus with extension to the surface, in favor of tear | medial meniscus; suspect posterior root tear",high
+1.2.826.0.1.3680043.8.498.37040910196459054543310335064167212742,Lateral Meniscus,1.0,1,positive,Meniscal tear in the body and posterior horn of medial meniscus; suspect posterior root tear of lateral meniscus.,tear in the body and posterior horn of medial meniscus; suspect posterior root tear of lateral meniscus,high
+1.2.826.0.1.3680043.8.498.37040910196459054543310335064167212742,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.37040910196459054543310335064167212742,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.37040910196459054543310335064167212742,PF OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.37040910196459054543310335064167212742,Effusion,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.37040910196459054543310335064167212742,Synovitis,1.0,1,positive,"* Joint effusion and suprapatellar bursitis with suprapatellar and medial plicae; hypertrophy of the synovium, indicative of synovitis. | Synovitis of left knee with suprapatellar bursitis and patellar plicae.",synovitis | Synovitis,high
+1.2.826.0.1.3680043.8.498.37040910196459054543310335064167212742,Baker's,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.37040910196459054543310335064167212742,Contusion,1.0,1,positive,"* Bone marrow edema in distal femur, proximal tibia and fibula, and lower pole of patella, suspect bone contusion. | Bone contusion in distal femur, proximal tibia and fibula, and lower pole of patella.",bone contusion | Bone contusion,high
+1.2.826.0.1.3680043.8.498.37040910196459054543310335064167212742,Fracture,1.0,1,positive,Subchondral fracture over posterior aspect of medial tibial plateau (Sr/Im: [ID]; [ID].,fracture,high
+1.2.826.0.1.3680043.8.498.37392127307867238524251864751713143683,ACL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.37392127307867238524251864751713143683,MCL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.37392127307867238524251864751713143683,Medial Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.37392127307867238524251864751713143683,Lateral Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.37392127307867238524251864751713143683,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.37392127307867238524251864751713143683,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.37392127307867238524251864751713143683,PF OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.37392127307867238524251864751713143683,Effusion,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.37392127307867238524251864751713143683,Synovitis,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.37392127307867238524251864751713143683,Baker's,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.37392127307867238524251864751713143683,Contusion,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.37392127307867238524251864751713143683,Fracture,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.39500553372517290823815606829518305500,ACL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.39500553372517290823815606829518305500,MCL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.39500553372517290823815606829518305500,Medial Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.39500553372517290823815606829518305500,Lateral Meniscus,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.39500553372517290823815606829518305500,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.39500553372517290823815606829518305500,Lateral OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.39500553372517290823815606829518305500,PF OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.39500553372517290823815606829518305500,Effusion,1.0,1,positive,Leve a moderado derrame articular con mínima sinovitis. | Leve a moderado derrame articular con mínima sinovitis,derrame articular,high
+1.2.826.0.1.3680043.8.498.39500553372517290823815606829518305500,Synovitis,1.0,1,positive,Leve a moderado derrame articular con mínima sinovitis. | Leve a moderado derrame articular con mínima sinovitis,sinovitis,high
+1.2.826.0.1.3680043.8.498.39500553372517290823815606829518305500,Baker's,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.39500553372517290823815606829518305500,Contusion,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.39500553372517290823815606829518305500,Fracture,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.41600498783384864111179175518614837125,ACL,1.0,1,positive,"The medial patellofemoral ligament is intact In the intercondylar notch, there is acute complete tear of the anterior cruciate ligament, at mid substance. | Acute complete tear of the anterior cruciate ligament, at mid substance.",tear of the anterior cruciate ligament,high
+1.2.826.0.1.3680043.8.498.41600498783384864111179175518614837125,MCL,0.0,1,positive,"There is grade II ligamentous sprain (partial tear) of the medial collateral ligament, at mid substance (deep and superficial fibers). | Grade II ligamentous sprain (partial tear) of the medial collateral ligament, at mid substance (deep and superficial fibers).",tear) of the medial collateral ligament,high
+1.2.826.0.1.3680043.8.498.41600498783384864111179175518614837125,Medial Meniscus,1.0,1,positive,"In the medial compartment, there is buckethandle tear at the anterior horn, body and posterior horn of the medial meniscus. | Buckethandle tear of the medial meniscus.","tear at the anterior horn, body and posterior horn of the medial meniscus | tear of the medial meniscus",high
+1.2.826.0.1.3680043.8.498.41600498783384864111179175518614837125,Lateral Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.41600498783384864111179175518614837125,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.41600498783384864111179175518614837125,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.41600498783384864111179175518614837125,PF OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.41600498783384864111179175518614837125,Effusion,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.41600498783384864111179175518614837125,Synovitis,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.41600498783384864111179175518614837125,Baker's,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.41600498783384864111179175518614837125,Contusion,1.0,1,positive,There is bone contusion at the posterolateral tibial plateau. | Bone contusion at the posterolateral tibial plateau.,bone contusion | Bone contusion,high
+1.2.826.0.1.3680043.8.498.41600498783384864111179175518614837125,Fracture,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.47921753480592595198052407850568677187,ACL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.47921753480592595198052407850568677187,MCL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.47921753480592595198052407850568677187,Medial Meniscus,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.47921753480592595198052407850568677187,Lateral Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.47921753480592595198052407850568677187,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.47921753480592595198052407850568677187,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.47921753480592595198052407850568677187,PF OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.47921753480592595198052407850568677187,Effusion,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.47921753480592595198052407850568677187,Synovitis,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.47921753480592595198052407850568677187,Baker's,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.47921753480592595198052407850568677187,Contusion,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.47921753480592595198052407850568677187,Fracture,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.48348615349418615469875801439348424274,ACL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.48348615349418615469875801439348424274,MCL,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.48348615349418615469875801439348424274,Medial Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.48348615349418615469875801439348424274,Lateral Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.48348615349418615469875801439348424274,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.48348615349418615469875801439348424274,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.48348615349418615469875801439348424274,PF OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.48348615349418615469875801439348424274,Effusion,0.0,1,positive,Leve derrame articular.,derrame articular,high
+1.2.826.0.1.3680043.8.498.48348615349418615469875801439348424274,Synovitis,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.48348615349418615469875801439348424274,Baker's,0.0,1,positive,"Pequeño quiste poplíteo, sin signos de complicación. | Pequeño quiste poplíteo.",quiste poplíteo,high
+1.2.826.0.1.3680043.8.498.48348615349418615469875801439348424274,Contusion,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.48348615349418615469875801439348424274,Fracture,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.48946580946665031852355005294734101132,ACL,1.0,1,positive,High-grade partial-thickness tear involving the anterior cruciate ligament near the femoral attachment. | High-grade partial-thickness tear of the anterior cruciate ligament.,tear involving the anterior cruciate ligament | tear of the anterior cruciate ligament,high
+1.2.826.0.1.3680043.8.498.48946580946665031852355005294734101132,MCL,0.0,1,positive,Low-grade partial-thickness tear involving the proximal fibers of the superficial and deep medial collateral ligament. | Low-grade partial tear of the medial collateral ligament.,tear involving the proximal fibers of the superficial and deep medial collateral ligament | tear of the medial collateral ligament,high
+1.2.826.0.1.3680043.8.498.48946580946665031852355005294734101132,Medial Meniscus,0.0,0,negative,The medial meniscus is intact.,medial meniscus is intact,high
+1.2.826.0.1.3680043.8.498.48946580946665031852355005294734101132,Lateral Meniscus,0.0,0,negative,The lateral meniscus is intact.,lateral meniscus is intact,high
+1.2.826.0.1.3680043.8.498.48946580946665031852355005294734101132,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.48946580946665031852355005294734101132,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.48946580946665031852355005294734101132,PF OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.48946580946665031852355005294734101132,Effusion,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.48946580946665031852355005294734101132,Synovitis,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.48946580946665031852355005294734101132,Baker's,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.48946580946665031852355005294734101132,Contusion,1.0,1,positive,Suspected bone contusion/meniscal tear.,bone contusion,high
+1.2.826.0.1.3680043.8.498.48946580946665031852355005294734101132,Fracture,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.54977581323931277817074741182670080450,ACL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.54977581323931277817074741182670080450,MCL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.54977581323931277817074741182670080450,Medial Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.54977581323931277817074741182670080450,Lateral Meniscus,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.54977581323931277817074741182670080450,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.54977581323931277817074741182670080450,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.54977581323931277817074741182670080450,PF OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.54977581323931277817074741182670080450,Effusion,0.0,1,positive,Leve derrame articular con mínima sinovitis. | Leve derrame articular con mínima sinovitis,derrame articular,high
+1.2.826.0.1.3680043.8.498.54977581323931277817074741182670080450,Synovitis,0.0,1,positive,Leve derrame articular con mínima sinovitis. | Leve derrame articular con mínima sinovitis,sinovitis,high
+1.2.826.0.1.3680043.8.498.54977581323931277817074741182670080450,Baker's,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.54977581323931277817074741182670080450,Contusion,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.54977581323931277817074741182670080450,Fracture,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.56512564464301544960446419143135447363,ACL,0.0,0,negative,ACL normal.,ACL normal,high
+1.2.826.0.1.3680043.8.498.56512564464301544960446419143135447363,MCL,0.0,0,negative,MCL normal.,MCL normal,high
+1.2.826.0.1.3680043.8.498.56512564464301544960446419143135447363,Medial Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.56512564464301544960446419143135447363,Lateral Meniscus,0.0,0,negative,Lateral meniscus normal.,Lateral meniscus normal,high
+1.2.826.0.1.3680043.8.498.56512564464301544960446419143135447363,Medial OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.56512564464301544960446419143135447363,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.56512564464301544960446419143135447363,PF OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.56512564464301544960446419143135447363,Effusion,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.56512564464301544960446419143135447363,Synovitis,1.0,1,positive,Effusion with synovitis.,synovitis,high
+1.2.826.0.1.3680043.8.498.56512564464301544960446419143135447363,Baker's,0.0,0,negative,No baker's cyst.,No baker's cyst,high
+1.2.826.0.1.3680043.8.498.56512564464301544960446419143135447363,Contusion,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.56512564464301544960446419143135447363,Fracture,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.59483999067816153759785789654766826710,ACL,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.59483999067816153759785789654766826710,MCL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.59483999067816153759785789654766826710,Medial Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.59483999067816153759785789654766826710,Lateral Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.59483999067816153759785789654766826710,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.59483999067816153759785789654766826710,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.59483999067816153759785789654766826710,PF OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.59483999067816153759785789654766826710,Effusion,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.59483999067816153759785789654766826710,Synovitis,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.59483999067816153759785789654766826710,Baker's,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.59483999067816153759785789654766826710,Contusion,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.59483999067816153759785789654766826710,Fracture,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.62465595376489211274225312453216559395,ACL,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.62465595376489211274225312453216559395,MCL,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.62465595376489211274225312453216559395,Medial Meniscus,1.0,1,positive,MRI right knee INDICATION: Assess ligamentous injury There is a vertical tear in the periphery of the posterior horn of the medial meniscus. | IMPRESSION: Vertical tear posterior horn medial meniscus.,tear in the periphery of the posterior horn of the medial meniscus | tear posterior horn medial meniscus,high
+1.2.826.0.1.3680043.8.498.62465595376489211274225312453216559395,Lateral Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.62465595376489211274225312453216559395,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.62465595376489211274225312453216559395,Lateral OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.62465595376489211274225312453216559395,PF OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.62465595376489211274225312453216559395,Effusion,1.0,1,positive,Small joint effusion.,Small joint effusion,high
+1.2.826.0.1.3680043.8.498.62465595376489211274225312453216559395,Synovitis,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.62465595376489211274225312453216559395,Baker's,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.62465595376489211274225312453216559395,Contusion,0.0,1,positive,Tiny bone bruise at the posterior aspect of the lateral tibial plateau. | Tiny bone bruise posterior aspect lateral tibial plateau. | Small bone bruise posterior aspect medial tibial plateau.,bone bruise,high
+1.2.826.0.1.3680043.8.498.62465595376489211274225312453216559395,Fracture,1.0,1,positive,Subchondral fracture in the lateral tibial plateau extending for an AP dimension of 2.7 cm with underlying bony edema. | Findings are consistent with an osteochondral impaction fracture. | No fibular fracture. | Hairline subchondral fracture lateral tibial plateau with diffuse underlying bony edema.,fracture,high
+1.2.826.0.1.3680043.8.498.62549354677638403845904556149868367236,ACL,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.62549354677638403845904556149868367236,MCL,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.62549354677638403845904556149868367236,Medial Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.62549354677638403845904556149868367236,Lateral Meniscus,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.62549354677638403845904556149868367236,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.62549354677638403845904556149868367236,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.62549354677638403845904556149868367236,PF OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.62549354677638403845904556149868367236,Effusion,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.62549354677638403845904556149868367236,Synovitis,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.62549354677638403845904556149868367236,Baker's,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.62549354677638403845904556149868367236,Contusion,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.62549354677638403845904556149868367236,Fracture,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.64408609256163127278435484217683272910,ACL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.64408609256163127278435484217683272910,MCL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.64408609256163127278435484217683272910,Medial Meniscus,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.64408609256163127278435484217683272910,Lateral Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.64408609256163127278435484217683272910,Medial OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.64408609256163127278435484217683272910,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.64408609256163127278435484217683272910,PF OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.64408609256163127278435484217683272910,Effusion,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.64408609256163127278435484217683272910,Synovitis,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.64408609256163127278435484217683272910,Baker's,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.64408609256163127278435484217683272910,Contusion,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.64408609256163127278435484217683272910,Fracture,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.64703506772167798469048460791472465039,ACL,0.0,1,positive,*Low-grade partial tear/sprain of the anterior cruciate ligament and lateral collateral ligament.,tear/sprain of the anterior cruciate ligament,high
+1.2.826.0.1.3680043.8.498.64703506772167798469048460791472465039,MCL,1.0,1,positive,Medial collateral ligament: Complete tear of the superficial portion at the mid to distal third. | *High-grade tear of the medial collateral ligament.,Medial collateral ligament: Complete tear | tear of the medial collateral ligament,high
+1.2.826.0.1.3680043.8.498.64703506772167798469048460791472465039,Medial Meniscus,1.0,1,positive,"Medial meniscus: Mild nonspecific signal changes of the meniscal body, with evidence of small horizontal oblique tear extending to the femoral surface.","Medial meniscus: Mild nonspecific signal changes of the meniscal body, with evidence of small horizontal oblique tear",high
+1.2.826.0.1.3680043.8.498.64703506772167798469048460791472465039,Lateral Meniscus,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.64703506772167798469048460791472465039,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.64703506772167798469048460791472465039,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.64703506772167798469048460791472465039,PF OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.64703506772167798469048460791472465039,Effusion,1.0,1,positive,Joint effusion: Large joint effusion. | *Large joint effusion.,Large joint effusion,high
+1.2.826.0.1.3680043.8.498.64703506772167798469048460791472465039,Synovitis,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.64703506772167798469048460791472465039,Baker's,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.64703506772167798469048460791472465039,Contusion,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.64703506772167798469048460791472465039,Fracture,1.0,1,positive,"FINDINGS: Fractures: Known mildly comminuted undisplaced avulsion fracture of the tibial tuberosity involving the distal ACL insertion, anteriorly the anterior horn root insertion of the lateral meniscus, as well as posteriorly the tibial insertion of both the posterior horn of medial and lateral menisci. | The fracture involves the central portion of the medial tibial plateau articular surface anteriorly and posteriorly with articular surface collapse of 3 mm anteriorly and 5 mm posteriorly, as well as a step deformity of up to 2 mm posteriorly. | Small mildly displaced avulsion fracture of the lateral corner of lateral tibial plateau [Segond fracture]. | There is associated bone marrow edema associated with these fractures. | Bone marrow signal: Additional small area of bone marrow edema on the medial side of medial femoral condyle without evidence of associated fracture. | CONCLUSION: *Comminuted mildly displaced avulsion fracture of the tibial spine with mild comminution, including the distal insertion of the ACL, the anterior horn root insertion of the lateral meniscus, and posterior horn root insertion zone of the medial and lateral menisci. | Intra-articular fracture extension involving the central portion of the medial tibial plateau with small gap/step as described. | *Small mildly displaced lateral corner fracture of the lateral tibial plateau [Segond fracture]. | *Small osteochondral impaction fracture of the lateral corner of lateral femoral condyle.",fracture | fractures,high
+1.2.826.0.1.3680043.8.498.65708905118633339771181857781063784327,ACL,0.0,0,negative,"In the intercondylar notch, the anterior cruciate ligament is intact.",anterior cruciate ligament is intact,high
+1.2.826.0.1.3680043.8.498.65708905118633339771181857781063784327,MCL,0.0,0,negative,The medial collateral ligament complexes are intact.,medial collateral ligament complexes are intact,high
+1.2.826.0.1.3680043.8.498.65708905118633339771181857781063784327,Medial Meniscus,1.0,1,positive,"In the medial compartment, there is radial tear at the posterior root of the medial meniscus. | Radial tear at the posterior root of the medial meniscus.",tear at the posterior root of the medial meniscus,high
+1.2.826.0.1.3680043.8.498.65708905118633339771181857781063784327,Lateral Meniscus,1.0,1,positive,"The lateral compartment, there is small horizontal tear at the anterior horn of the lateral meniscus. | Suspected small horizontal tear at the anterior horn of the lateral meniscus.",tear at the anterior horn of the lateral meniscus,high
+1.2.826.0.1.3680043.8.498.65708905118633339771181857781063784327,Medial OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.65708905118633339771181857781063784327,Lateral OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.65708905118633339771181857781063784327,PF OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.65708905118633339771181857781063784327,Effusion,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.65708905118633339771181857781063784327,Synovitis,1.0,1,positive,Some amount of left knee effusion with synovitis is present. | Some amount of left knee effusion with synovitis and 1.5*1.5* 4.5 cm baker's cyst.,synovitis,high
+1.2.826.0.1.3680043.8.498.65708905118633339771181857781063784327,Baker's,1.0,1,positive,A 1.5*1.5* 4.5 cm baker's cyst at the posteromedial aspect of left knee. | Some amount of left knee effusion with synovitis and 1.5*1.5* 4.5 cm baker's cyst.,baker's cyst,high
+1.2.826.0.1.3680043.8.498.65708905118633339771181857781063784327,Contusion,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.65708905118633339771181857781063784327,Fracture,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.67188121544063723837669983597453941774,ACL,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.67188121544063723837669983597453941774,MCL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.67188121544063723837669983597453941774,Medial Meniscus,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.67188121544063723837669983597453941774,Lateral Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.67188121544063723837669983597453941774,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.67188121544063723837669983597453941774,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.67188121544063723837669983597453941774,PF OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.67188121544063723837669983597453941774,Effusion,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.67188121544063723837669983597453941774,Synovitis,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.67188121544063723837669983597453941774,Baker's,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.67188121544063723837669983597453941774,Contusion,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.67188121544063723837669983597453941774,Fracture,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.69392348385274125385290015404144639002,ACL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.69392348385274125385290015404144639002,MCL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.69392348385274125385290015404144639002,Medial Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.69392348385274125385290015404144639002,Lateral Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.69392348385274125385290015404144639002,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.69392348385274125385290015404144639002,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.69392348385274125385290015404144639002,PF OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.69392348385274125385290015404144639002,Effusion,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.69392348385274125385290015404144639002,Synovitis,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.69392348385274125385290015404144639002,Baker's,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.69392348385274125385290015404144639002,Contusion,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.69392348385274125385290015404144639002,Fracture,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.72853333220043794904856138561095171921,ACL,0.0,1,positive,CRUCIATE LIGAMENTS: Anterior cruciate ligament (ACL): No tear.,Anterior cruciate ligament (ACL): No tear,high
+1.2.826.0.1.3680043.8.498.72853333220043794904856138561095171921,MCL,1.0,1,positive,COLLATERAL LIGAMENTS & POSTEROLATERAL CORNER: Medial collateral ligament (MCL): Grade 2 injury. | Grade 2 medial collateral ligament (MCL) sprain.,Medial collateral ligament (MCL): Grade 2 injury | medial collateral ligament (MCL) sprain,high
+1.2.826.0.1.3680043.8.498.72853333220043794904856138561095171921,Medial Meniscus,0.0,1,positive,MEDIAL COMPARTMENT: Medial meniscus: No tear.,Medial meniscus: No tear,high
+1.2.826.0.1.3680043.8.498.72853333220043794904856138561095171921,Lateral Meniscus,0.0,1,positive,LATERAL COMPARTMENT: Lateral meniscus: No tear.,Lateral meniscus: No tear,high
+1.2.826.0.1.3680043.8.498.72853333220043794904856138561095171921,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.72853333220043794904856138561095171921,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.72853333220043794904856138561095171921,PF OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.72853333220043794904856138561095171921,Effusion,0.0,0,negative,JOINT SPACE: No joint effusion.,No joint effusion,high
+1.2.826.0.1.3680043.8.498.72853333220043794904856138561095171921,Synovitis,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.72853333220043794904856138561095171921,Baker's,0.0,0,negative,No Baker's cyst.,No Baker's cyst,high
+1.2.826.0.1.3680043.8.498.72853333220043794904856138561095171921,Contusion,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.72853333220043794904856138561095171921,Fracture,0.0,0,negative,No acute fracture.,No acute fracture,high
+1.2.826.0.1.3680043.8.498.73527530686853911124431549317032662220,ACL,1.0,1,positive,"MRI of Knee with -3-Plane Loc, Sag PD FS, Sag T2 FS, Sag T1, Cor T2 FS, Ax T2 FS > The contour of ACL is not in a straight line and increase signal intensity inside on F/S T2WI, in favor of tear, major at proximal portion. | C/W ACL tear.","ACL is not in a straight line and increase signal intensity inside on F/S T2WI, in favor of tear | ACL tear",high
+1.2.826.0.1.3680043.8.498.73527530686853911124431549317032662220,MCL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.73527530686853911124431549317032662220,Medial Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.73527530686853911124431549317032662220,Lateral Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.73527530686853911124431549317032662220,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.73527530686853911124431549317032662220,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.73527530686853911124431549317032662220,PF OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.73527530686853911124431549317032662220,Effusion,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.73527530686853911124431549317032662220,Synovitis,0.0,1,positive,"> Joint effusion and suprapatellar bursitis with suprapatellar, lateral and medial plicae; hypertrophy of the synovium, indicative of synovitis. | Moderate joint effsuion and synovitis of right knee and patellar plicae.",synovitis,high
+1.2.826.0.1.3680043.8.498.73527530686853911124431549317032662220,Baker's,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.73527530686853911124431549317032662220,Contusion,1.0,1,positive,"> Abnormal signal intensity is noted in proximal tibia and distal femur, which shows low signal intensity on T1WI and high signal intensity on T2WI, in favor of bone contusion, more prominent at lateral side.",bone contusion,high
+1.2.826.0.1.3680043.8.498.73527530686853911124431549317032662220,Fracture,1.0,1,positive,In favor of subchondral fracture of lateral femoral condyle.,fracture,high
+1.2.826.0.1.3680043.8.498.73926443729786165628848843707532839995,ACL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.73926443729786165628848843707532839995,MCL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.73926443729786165628848843707532839995,Medial Meniscus,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.73926443729786165628848843707532839995,Lateral Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.73926443729786165628848843707532839995,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.73926443729786165628848843707532839995,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.73926443729786165628848843707532839995,PF OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.73926443729786165628848843707532839995,Effusion,1.0,1,positive,Geringer Gelenkerguss.,Gelenkerguss,high
+1.2.826.0.1.3680043.8.498.73926443729786165628848843707532839995,Synovitis,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.73926443729786165628848843707532839995,Baker's,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.73926443729786165628848843707532839995,Contusion,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.73926443729786165628848843707532839995,Fracture,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.75187434248356774277526985329346125190,ACL,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.75187434248356774277526985329346125190,MCL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.75187434248356774277526985329346125190,Medial Meniscus,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.75187434248356774277526985329346125190,Lateral Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.75187434248356774277526985329346125190,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.75187434248356774277526985329346125190,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.75187434248356774277526985329346125190,PF OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.75187434248356774277526985329346125190,Effusion,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.75187434248356774277526985329346125190,Synovitis,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.75187434248356774277526985329346125190,Baker's,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.75187434248356774277526985329346125190,Contusion,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.75187434248356774277526985329346125190,Fracture,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.77362718298550276679350855963451855003,ACL,0.0,0,negative,ACL normal.,ACL normal,high
+1.2.826.0.1.3680043.8.498.77362718298550276679350855963451855003,MCL,0.0,0,negative,MCL normal.,MCL normal,high
+1.2.826.0.1.3680043.8.498.77362718298550276679350855963451855003,Medial Meniscus,0.0,1,positive,Medial meniscus tear.,Medial meniscus tear,high
+1.2.826.0.1.3680043.8.498.77362718298550276679350855963451855003,Lateral Meniscus,0.0,0,negative,Lateral meniscus normal.,Lateral meniscus normal,high
+1.2.826.0.1.3680043.8.498.77362718298550276679350855963451855003,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.77362718298550276679350855963451855003,Lateral OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.77362718298550276679350855963451855003,PF OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.77362718298550276679350855963451855003,Effusion,1.0,1,positive,Mild effusion.,Mild effusion,high
+1.2.826.0.1.3680043.8.498.77362718298550276679350855963451855003,Synovitis,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.77362718298550276679350855963451855003,Baker's,0.0,0,negative,No Baker's cyst.,No Baker's cyst,high
+1.2.826.0.1.3680043.8.498.77362718298550276679350855963451855003,Contusion,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.77362718298550276679350855963451855003,Fracture,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.78512215519177850923279235346968676828,ACL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.78512215519177850923279235346968676828,MCL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.78512215519177850923279235346968676828,Medial Meniscus,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.78512215519177850923279235346968676828,Lateral Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.78512215519177850923279235346968676828,Medial OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.78512215519177850923279235346968676828,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.78512215519177850923279235346968676828,PF OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.78512215519177850923279235346968676828,Effusion,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.78512215519177850923279235346968676828,Synovitis,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.78512215519177850923279235346968676828,Baker's,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.78512215519177850923279235346968676828,Contusion,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.78512215519177850923279235346968676828,Fracture,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.82166943552764439138333504456139890254,ACL,1.0,1,positive,"In the intercondylar notch, there is chronic complete tear of the anterior cruciate ligament, at mid substance. | Chronic complete tear of the anterior cruciate ligament, at mid substance.",tear of the anterior cruciate ligament,high
+1.2.826.0.1.3680043.8.498.82166943552764439138333504456139890254,MCL,0.0,0,negative,The medial collateral ligament complexes are intact.,medial collateral ligament complexes are intact,high
+1.2.826.0.1.3680043.8.498.82166943552764439138333504456139890254,Medial Meniscus,1.0,1,positive,"In the medial compartment, there is complex tear (main radial component) at the body and posterior horn of the medial meniscus. | Complex tear (main radial component) at the body and posterior horn of the medial meniscus.",tear (main radial component) at the body and posterior horn of the medial meniscus,high
+1.2.826.0.1.3680043.8.498.82166943552764439138333504456139890254,Lateral Meniscus,1.0,1,positive,"The lateral compartment, there is complex tear with buckethandle tear at the anterior horn, body and posterior horn of the lateral meniscus. | Complex tear with buckethandle tear at the anterior horn, body and posterior horn of the lateral meniscus.","tear with buckethandle tear at the anterior horn, body and posterior horn of the lateral meniscus",high
+1.2.826.0.1.3680043.8.498.82166943552764439138333504456139890254,Medial OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.82166943552764439138333504456139890254,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.82166943552764439138333504456139890254,PF OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.82166943552764439138333504456139890254,Effusion,1.0,1,positive,Minimal amount of right knee effusion is present.The surrounding musculature is normal.,knee effusion is present,high
+1.2.826.0.1.3680043.8.498.82166943552764439138333504456139890254,Synovitis,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.82166943552764439138333504456139890254,Baker's,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.82166943552764439138333504456139890254,Contusion,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.82166943552764439138333504456139890254,Fracture,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.86968600239724310678905311244945464037,ACL,1.0,1,positive,Suggestive of complete tear of ACL. | IMP: Complete ACL tear.,tear of ACL | ACL tear,high
+1.2.826.0.1.3680043.8.498.86968600239724310678905311244945464037,MCL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.86968600239724310678905311244945464037,Medial Meniscus,1.0,1,positive,Tear of the posterior horn of medial meniscus. | Tear of posterior horn of medial meniscus.,Tear of the posterior horn of medial meniscus | Tear of posterior horn of medial meniscus,high
+1.2.826.0.1.3680043.8.498.86968600239724310678905311244945464037,Lateral Meniscus,0.0,1,positive,The lateral meniscus shows no obvious tear.,lateral meniscus shows no obvious tear,high
+1.2.826.0.1.3680043.8.498.86968600239724310678905311244945464037,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.86968600239724310678905311244945464037,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.86968600239724310678905311244945464037,PF OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.86968600239724310678905311244945464037,Effusion,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.86968600239724310678905311244945464037,Synovitis,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.86968600239724310678905311244945464037,Baker's,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.86968600239724310678905311244945464037,Contusion,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.86968600239724310678905311244945464037,Fracture,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.88077418639301174409926781329613570435,ACL,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.88077418639301174409926781329613570435,MCL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.88077418639301174409926781329613570435,Medial Meniscus,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.88077418639301174409926781329613570435,Lateral Meniscus,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.88077418639301174409926781329613570435,Medial OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.88077418639301174409926781329613570435,Lateral OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.88077418639301174409926781329613570435,PF OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.88077418639301174409926781329613570435,Effusion,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.88077418639301174409926781329613570435,Synovitis,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.88077418639301174409926781329613570435,Baker's,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.88077418639301174409926781329613570435,Contusion,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.88077418639301174409926781329613570435,Fracture,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.90283565381042081768587894596970552767,ACL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.90283565381042081768587894596970552767,MCL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.90283565381042081768587894596970552767,Medial Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.90283565381042081768587894596970552767,Lateral Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.90283565381042081768587894596970552767,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.90283565381042081768587894596970552767,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.90283565381042081768587894596970552767,PF OA,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.90283565381042081768587894596970552767,Effusion,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.90283565381042081768587894596970552767,Synovitis,1.0,1,positive,Derrame con sinovitis.,sinovitis,high
+1.2.826.0.1.3680043.8.498.90283565381042081768587894596970552767,Baker's,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.90283565381042081768587894596970552767,Contusion,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.90283565381042081768587894596970552767,Fracture,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.94433753471890306108089557761231739312,ACL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.94433753471890306108089557761231739312,MCL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.94433753471890306108089557761231739312,Medial Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.94433753471890306108089557761231739312,Lateral Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.94433753471890306108089557761231739312,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.94433753471890306108089557761231739312,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.94433753471890306108089557761231739312,PF OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.94433753471890306108089557761231739312,Effusion,0.0,0,negative,No significant knee effusion.,No significant knee effusion,high
+1.2.826.0.1.3680043.8.498.94433753471890306108089557761231739312,Synovitis,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.94433753471890306108089557761231739312,Baker's,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.94433753471890306108089557761231739312,Contusion,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.94433753471890306108089557761231739312,Fracture,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.97274720257634584071500649275217521662,ACL,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.97274720257634584071500649275217521662,MCL,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.97274720257634584071500649275217521662,Medial Meniscus,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.97274720257634584071500649275217521662,Lateral Meniscus,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.97274720257634584071500649275217521662,Medial OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.97274720257634584071500649275217521662,Lateral OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.97274720257634584071500649275217521662,PF OA,0.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.97274720257634584071500649275217521662,Effusion,0.0,1,positive,"Begleitend geringer Gelenkerguss, Reizsynovialitis sowie gering Flüssigkeit gefüllte Baker-Zyste mit CC 3,2 cm.",Gelenkerguss,high
+1.2.826.0.1.3680043.8.498.97274720257634584071500649275217521662,Synovitis,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.97274720257634584071500649275217521662,Baker's,1.0,,unknown,,,unknown
+1.2.826.0.1.3680043.8.498.97274720257634584071500649275217521662,Contusion,1.0,1,positive,Stigmata der Inaktivitätsosteopenie sowie verbliebenes bone bruise im posterolateralen Tibiaplateau nahe der Eminentia bei subchondraler Impression mit teils punktuell chondralen Läsionen.,bone bruise,high
+1.2.826.0.1.3680043.8.498.97274720257634584071500649275217521662,Fracture,1.0,,unknown,,,unknown
