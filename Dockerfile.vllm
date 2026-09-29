@@ -1,0 +1,6 @@
+FROM rsna-knee-mri:last
+
+RUN python -m pip install --no-cache-dir vllm==0.30.0 \
+    && python -m pip uninstall -y torchaudio
+
+WORKDIR /workspace
