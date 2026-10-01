@@ -1,0 +1,301 @@
+StudyInstanceUID,target,score,label,status,evidence,raw_output
+1.2.826.0.1.3680043.8.498.10004873229099053869093324292195817260,ACL,0.4,0.0,negative,Target-specific evidence is not mentioned in the report.,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""Target-specific evidence is not mentioned in the report.""
+}"
+1.2.826.0.1.3680043.8.498.10004873229099053869093324292195817260,MCL,0.4,0.0,negative,"The report does not mention any MCL injury, tear, rupture, sprain, or disruption. The findings are related to the medial meniscus and medial femorotibial compartment, but not the MCL.","{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""The report does not mention any MCL injury, tear, rupture, sprain, or disruption. The findings are related to the medial meniscus and medial femorotibial compartment, but not the MCL.""
+}"
+1.2.826.0.1.3680043.8.498.10004873229099053869093324292195817260,Medial Meniscus,0.95,1.0,positive,Rotura de menisco interno,"{
+  ""status"": ""positive"",
+  ""score"": 0.95,
+  ""evidence"": ""Rotura de menisco interno""
+}"
+1.2.826.0.1.3680043.8.498.10004873229099053869093324292195817260,Lateral Meniscus,0.4,0.0,negative,Rotura de menisco interno,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""Rotura de menisco interno""
+}"
+1.2.826.0.1.3680043.8.498.10004873229099053869093324292195817260,Medial Femoral Condyle OA,0.95,1.0,positive,Artrosis femorotibial medial,"{
+  ""status"": ""positive"",
+  ""score"": 0.95,
+  ""evidence"": ""Artrosis femorotibial medial""
+}"
+1.2.826.0.1.3680043.8.498.10004873229099053869093324292195817260,Lateral Femoral Condyle OA,0.4,0.0,negative,Artrosis femorotibial medial,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""Artrosis femorotibial medial""
+}"
+1.2.826.0.1.3680043.8.498.10004873229099053869093324292195817260,Patellofemoral OA,0.4,0.0,negative,Artrosis femorotibial medial,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""Artrosis femorotibial medial""
+}"
+1.2.826.0.1.3680043.8.498.10004873229099053869093324292195817260,Effusion,0.95,1.0,positive,Derrame,"{
+  ""status"": ""positive"",
+  ""score"": 0.95,
+  ""evidence"": ""Derrame""
+}"
+1.2.826.0.1.3680043.8.498.10004873229099053869093324292195817260,Synovitis,0.4,0.0,negative,Derrame,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""Derrame""
+}"
+1.2.826.0.1.3680043.8.498.10004873229099053869093324292195817260,Baker's,0.4,0.0,negative,Target-specific evidence is not mentioned in the report.,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""Target-specific evidence is not mentioned in the report.""
+}"
+1.2.826.0.1.3680043.8.498.10004873229099053869093324292195817260,Contusion,0.4,0.0,negative,Target-specific evidence is not mentioned in the report.,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""Target-specific evidence is not mentioned in the report.""
+}"
+1.2.826.0.1.3680043.8.498.10004873229099053869093324292195817260,Fracture,0.4,0.0,negative,Target-specific evidence is not mentioned in the report.,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""Target-specific evidence is not mentioned in the report.""
+}"
+1.2.826.0.1.3680043.8.498.10004945927472656027199792075652399585,ACL,0.4,0.0,negative,The ACL is intact,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""The ACL is intact""
+}"
+1.2.826.0.1.3680043.8.498.10004945927472656027199792075652399585,MCL,0.4,0.0,negative,MCL is intact,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""MCL is intact""
+}"
+1.2.826.0.1.3680043.8.498.10004945927472656027199792075652399585,Medial Meniscus,0.4,0.0,negative,no meniscus tear or abnormality noted in the medial meniscus,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""no meniscus tear or abnormality noted in the medial meniscus""
+}"
+1.2.826.0.1.3680043.8.498.10004945927472656027199792075652399585,Lateral Meniscus,0.4,0.0,negative,no meniscus tear,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""no meniscus tear""
+}"
+1.2.826.0.1.3680043.8.498.10004945927472656027199792075652399585,Medial Femoral Condyle OA,0.4,0.0,negative,no focal chondrosis or chondral injury in the medial compartment,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""no focal chondrosis or chondral injury in the medial compartment""
+}"
+1.2.826.0.1.3680043.8.498.10004945927472656027199792075652399585,Lateral Femoral Condyle OA,0.4,0.0,negative,no focal chondrosis or chondral injury in the lateral compartment,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""no focal chondrosis or chondral injury in the lateral compartment""
+}"
+1.2.826.0.1.3680043.8.498.10004945927472656027199792075652399585,Patellofemoral OA,0.4,0.0,negative,no evidence of patellofemoral osteoarthritis or related pathology,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""no evidence of patellofemoral osteoarthritis or related pathology""
+}"
+1.2.826.0.1.3680043.8.498.10004945927472656027199792075652399585,Effusion,0.95,1.0,positive,Diagnostische vraagstellling: Meniscusscheur/mediaal?,"{
+  ""status"": ""positive"",
+  ""score"": 0.95,
+  ""evidence"": ""Diagnostische vraagstellling: Meniscusscheur/mediaal?""
+}"
+1.2.826.0.1.3680043.8.498.10004945927472656027199792075652399585,Synovitis,0.4,0.0,negative,no synovitis,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""no synovitis""
+}"
+1.2.826.0.1.3680043.8.498.10004945927472656027199792075652399585,Baker's,0.4,0.0,negative,"Bevindingen: [DATE]. Diagnostische vraagstellling: Meniscusscheur/mediaal? Scanprotocol (DRB) : sag intermediair gewogen seq zonder en met fs, ax/ cor pd gewogen seq fs, cor T1 gewogen seq","{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""Bevindingen: [DATE]. Diagnostische vraagstellling: Meniscusscheur/mediaal? Scanprotocol (DRB) : sag intermediair gewogen seq zonder en met fs, ax/ cor pd gewogen seq fs, cor T1 gewogen seq""
+}"
+1.2.826.0.1.3680043.8.498.10004945927472656027199792075652399585,Contusion,0.4,0.0,negative,Target-specific evidence is not mentioned in the report.,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""Target-specific evidence is not mentioned in the report.""
+}"
+1.2.826.0.1.3680043.8.498.10004945927472656027199792075652399585,Fracture,0.4,0.0,negative,"Bevindingen: [DATE]. Diagnostische vraagstellling: Meniscusscheur/mediaal? Scanprotocol (DRB) : sag intermediair gewogen seq zonder en met fs, ax/ cor pd gewogen seq fs, cor T1 gewogen seq","{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""Bevindingen: [DATE]. Diagnostische vraagstellling: Meniscusscheur/mediaal? Scanprotocol (DRB) : sag intermediair gewogen seq zonder en met fs, ax/ cor pd gewogen seq fs, cor T1 gewogen seq""
+}"
+1.2.826.0.1.3680043.8.498.10009278692606631573540062909909132231,ACL,0.4,0.0,negative,Ligamentos cruzados y colaterales dentro de límites normales,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""Ligamentos cruzados y colaterales dentro de límites normales""
+}"
+1.2.826.0.1.3680043.8.498.10009278692606631573540062909909132231,MCL,0.4,0.0,negative,Ligamentos cruzados y colaterales dentro de límites normales,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""Ligamentos cruzados y colaterales dentro de límites normales""
+}"
+1.2.826.0.1.3680043.8.498.10009278692606631573540062909909132231,Medial Meniscus,0.4,0.0,negative,"No hay evidente derrame articular ni quistes poplíteos. Aumento de señal del cuerno posterior del menisco medial que no impresiona contactar con la superficie articular, sin caracteres propios de rotura. Menisco lateral de morfología y señal conservada, sin signos de rotura.","{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""No hay evidente derrame articular ni quistes poplíteos. Aumento de señal del cuerno posterior del menisco medial que no impresiona contactar con la superficie articular, sin caracteres propios de rotura. Menisco lateral de morfología y señal conservada, sin signos de rotura.""
+}"
+1.2.826.0.1.3680043.8.498.10009278692606631573540062909909132231,Lateral Meniscus,0.4,0.0,negative,"Menisco lateral de morfología y señal conservada, sin signos de rotura","{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""Menisco lateral de morfología y señal conservada, sin signos de rotura""
+}"
+1.2.826.0.1.3680043.8.498.10009278692606631573540062909909132231,Medial Femoral Condyle OA,0.85,1.0,positive,Úlceras condrales de espesor parcial con fenómenos condrales reparativos de la región central de la zona de carga del cóndilo femoral medial,"{
+  ""status"": ""positive"",
+  ""score"": 0.85,
+  ""evidence"": ""Úlceras condrales de espesor parcial con fenómenos condrales reparativos de la región central de la zona de carga del cóndilo femoral medial""
+}"
+1.2.826.0.1.3680043.8.498.10009278692606631573540062909909132231,Lateral Femoral Condyle OA,0.4,0.0,negative,No alteraciones en significativas de la médula ósea. El resto de los cartílagos femorotibiales y de la tróclea femoral sin alteraciones.,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""No alteraciones en significativas de la médula ósea. El resto de los cartílagos femorotibiales y de la tróclea femoral sin alteraciones.""
+}"
+1.2.826.0.1.3680043.8.498.10009278692606631573540062909909132231,Patellofemoral OA,0.85,1.0,positive,Úlceras condrales de espesor parcial con fenómenos condrales reparativos de la región central de la zona de carga del cóndilo femoral medial. Úlceras condrales espesor parcial de la rótula de distribución difusa.,"{
+  ""status"": ""positive"",
+  ""score"": 0.85,
+  ""evidence"": ""Úlceras condrales de espesor parcial con fenómenos condrales reparativos de la región central de la zona de carga del cóndilo femoral medial. Úlceras condrales espesor parcial de la rótula de distribución difusa.""
+}"
+1.2.826.0.1.3680043.8.498.10009278692606631573540062909909132231,Effusion,0.4,0.0,negative,No hay evidente derrame articular,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""No hay evidente derrame articular""
+}"
+1.2.826.0.1.3680043.8.498.10009278692606631573540062909909132231,Synovitis,0.4,0.0,negative,No hay evidente derrame articular ni quistes poplíteos,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""No hay evidente derrame articular ni quistes poplíteos""
+}"
+1.2.826.0.1.3680043.8.498.10009278692606631573540062909909132231,Baker's,0.4,0.0,negative,No hay evidente derrame articular ni quistes poplíteos,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""No hay evidente derrame articular ni quistes poplíteos""
+}"
+1.2.826.0.1.3680043.8.498.10009278692606631573540062909909132231,Contusion,0.4,0.0,negative,No hay alteraciones en significativas de la médula ósea,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""No hay alteraciones en significativas de la médula ósea""
+}"
+1.2.826.0.1.3680043.8.498.10009278692606631573540062909909132231,Fracture,0.4,0.0,negative,No hay evidente derrame articular ni quistes poplíteos,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""No hay evidente derrame articular ni quistes poplíteos""
+}"
+1.2.826.0.1.3680043.8.498.10009639203170750274174707434356622764,ACL,0.4,0.0,negative,"In the intercondylar notch, the anterior and posterior cruciate ligaments are intact.","{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""In the intercondylar notch, the anterior and posterior cruciate ligaments are intact.""
+}"
+1.2.826.0.1.3680043.8.498.10009639203170750274174707434356622764,MCL,0.4,0.0,negative,The medial collateral ligament complexes are intact.,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""The medial collateral ligament complexes are intact.""
+}"
+1.2.826.0.1.3680043.8.498.10009639203170750274174707434356622764,Medial Meniscus,0.4,0.0,negative,"In the medial compartment, the meniscus is not torn and there is no focal chondrosis or chondral injury.","{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""In the medial compartment, the meniscus is not torn and there is no focal chondrosis or chondral injury.""
+}"
+1.2.826.0.1.3680043.8.498.10009639203170750274174707434356622764,Lateral Meniscus,0.4,0.0,negative,Suspicious incomplete discoid lateral meniscus without tear,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""Suspicious incomplete discoid lateral meniscus without tear""
+}"
+1.2.826.0.1.3680043.8.498.10009639203170750274174707434356622764,Medial Femoral Condyle OA,0.4,0.0,negative,"In the medial compartment, there is no focal chondrosis or chondral injury.","{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""In the medial compartment, there is no focal chondrosis or chondral injury.""
+}"
+1.2.826.0.1.3680043.8.498.10009639203170750274174707434356622764,Lateral Femoral Condyle OA,0.4,0.0,negative,There is no focal chondrosis or chondral injury in the lateral compartment.,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""There is no focal chondrosis or chondral injury in the lateral compartment.""
+}"
+1.2.826.0.1.3680043.8.498.10009639203170750274174707434356622764,Patellofemoral OA,0.4,0.0,negative,The patellar and trochlear cartilage appears congruent without chondral lesion.,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""The patellar and trochlear cartilage appears congruent without chondral lesion.""
+}"
+1.2.826.0.1.3680043.8.498.10009639203170750274174707434356622764,Effusion,0.4,0.0,negative,No knee effusion is present,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""No knee effusion is present""
+}"
+1.2.826.0.1.3680043.8.498.10009639203170750274174707434356622764,Synovitis,0.4,0.0,negative,No knee effusion is present.,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""No knee effusion is present.""
+}"
+1.2.826.0.1.3680043.8.498.10009639203170750274174707434356622764,Baker's,0.4,0.0,negative,Intact cartilage and ligaments of left knee,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""Intact cartilage and ligaments of left knee""
+}"
+1.2.826.0.1.3680043.8.498.10009639203170750274174707434356622764,Contusion,0.4,0.0,negative,There is no fracture or bone contusion.,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""There is no fracture or bone contusion.""
+}"
+1.2.826.0.1.3680043.8.498.10009639203170750274174707434356622764,Fracture,0.4,0.0,negative,There is no fracture or bone contusion.,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""There is no fracture or bone contusion.""
+}"
+1.2.826.0.1.3680043.8.498.10013663742400736029415768216599146542,ACL,0.4,0.0,negative,Ligament croisé antérieur : Normal.,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""Ligament croisé antérieur : Normal.""
+}"
+1.2.826.0.1.3680043.8.498.10013663742400736029415768216599146542,MCL,0.4,0.0,negative,Ligament collatéral médial : Léger épaississement proximal compatible avec une ancienne entorse de bas grade.,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""Ligament collatéral médial : Léger épaississement proximal compatible avec une ancienne entorse de bas grade.""
+}"
+1.2.826.0.1.3680043.8.498.10013663742400736029415768216599146542,Medial Meniscus,0.4,0.0,negative,Ménisque médial : Légers changements dégénératifs dégénérés sans signe de signe.,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""Ménisque médial : Légers changements dégénératifs dégénérés sans signe de signe.""
+}"
+1.2.826.0.1.3680043.8.498.10013663742400736029415768216599146542,Lateral Meniscus,0.4,0.0,negative,Ménisque latéral : Normal,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""Ménisque latéral : Normal""
+}"
+1.2.826.0.1.3680043.8.498.10013663742400736029415768216599146542,Medial Femoral Condyle OA,0.4,0.0,negative,"Normal medial femoral condyle: 'Changements dégénératifs : Chondropatie rétropatellaire modérée à sévère avec fissuration profonde impliquant les facettes médiale et latérale, au niveau de la facette médiale et œdème osseux réactionnel [grade 4]. Chondropatie légère des surfaces portantes des compartiments médial et latéral sans fissuration profonde.' The report does not describe osteoarthritis or degenerative/cartilage pathology specifically localized to the medial femoral condyle.","{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""Normal medial femoral condyle: 'Changements dégénératifs : Chondropatie rétropatellaire modérée à sévère avec fissuration profonde impliquant les facettes médiale et latérale, au niveau de la facette médiale et œdème osseux réactionnel [grade 4]. Chondropatie légère des surfaces portantes des compartiments médial et latéral sans fissuration profonde.' The report does not describe osteoarthritis or degenerative/cartilage pathology specifically localized to the medial femoral condyle.""
+}"
+1.2.826.0.1.3680043.8.498.10013663742400736029415768216599146542,Lateral Femoral Condyle OA,0.4,0.0,negative,Lateral Femoral Condyle OA: 'Chondropatie légère des surfaces portantes des compartiments médial et latéral sans fissuration profonde' and 'Pas de déchirure méniscale' indicate no significant pathology in the lateral compartment.,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""Lateral Femoral Condyle OA: 'Chondropatie légère des surfaces portantes des compartiments médial et latéral sans fissuration profonde' and 'Pas de déchirure méniscale' indicate no significant pathology in the lateral compartment.""
+}"
+1.2.826.0.1.3680043.8.498.10013663742400736029415768216599146542,Patellofemoral OA,0.95,1.0,positive,Chondropatie rétropatellaire modérée à sévère,"{
+  ""status"": ""positive"",
+  ""score"": 0.95,
+  ""evidence"": ""Chondropatie rétropatellaire modérée à sévère""
+}"
+1.2.826.0.1.3680043.8.498.10013663742400736029415768216599146542,Effusion,0.4,0.0,negative,Épanchement articulaire : Pas de liquide significatif,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""Épanchement articulaire : Pas de liquide significatif""
+}"
+1.2.826.0.1.3680043.8.498.10013663742400736029415768216599146542,Synovitis,0.4,0.0,negative,Épanchement articulaire : Pas de liquide significatif,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""Épanchement articulaire : Pas de liquide significatif""
+}"
+1.2.826.0.1.3680043.8.498.10013663742400736029415768216599146542,Baker's,0.4,0.0,negative,Kyste de Baker : Aucun.,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""Kyste de Baker : Aucun.""
+}"
+1.2.826.0.1.3680043.8.498.10013663742400736029415768216599146542,Contusion,0.4,0.0,negative,Signal de la moelle osseuse : Par ailleurs normal.,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""Signal de la moelle osseuse : Par ailleurs normal.""
+}"
+1.2.826.0.1.3680043.8.498.10013663742400736029415768216599146542,Fracture,0.4,0.0,negative,Fractures : Aucune.,"{
+  ""status"": ""negative"",
+  ""score"": 0.95,
+  ""evidence"": ""Fractures : Aucune.""
+}"
